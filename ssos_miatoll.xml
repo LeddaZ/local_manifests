@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <!-- Device trees -->
+    <project path="device/xiaomi/miatoll" name="LeddaZ/device_xiaomi_miatoll" remote="github" revision="android_11" />
+    <project path="device/xiaomi/sm6250-common" name="LeddaZ/device_xiaomi_sm6250-common" remote="github" revision="android_11" />
+
+    <!-- Kernel source -->
+    <project path="kernel/xiaomi/sm6250" name="LeddaZ/kernel_xiaomi_sm6250" remote="github" revision="Rika" />
+
+    <!-- Vendor blobs -->
+    <project path="vendor/xiaomi/miatoll" name="LeddaZ/vendor_xiaomi_miatoll" remote="github" revision="arrow-11.0" />
+    <project path="vendor/xiaomi/sm6250-common" name="LeddaZ/vendor_xiaomi_sm6250-common" remote="github" revision="arrow-11.0" />
+
+    <!-- proton-clang -->
+    <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1" />
+
+    <!-- hardware/xiaomi from LineageOS -->
+    <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-18.1" />
+
+</manifest>
