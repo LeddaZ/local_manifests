@@ -15,7 +15,4 @@
     <!-- hardware/xiaomi from LineageOS -->
     <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-18.1" />
 
-    <!-- proton-clang -->
-    <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1" />
-
 </manifest>
