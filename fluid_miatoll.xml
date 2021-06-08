@@ -10,7 +10,7 @@
 
     <!-- Vendor blobs -->
     <project path="vendor/xiaomi/miatoll" name="Project-Fluid-Devices/vendor_xiaomi_miatoll" remote="github" revision="fluid-11" />
-    <project path="vendor/xiaomi/sm6250-common" name="Project-Fluid-Devices/vendor_xiaomi_sm6250-common" remote="fluid-11" revision="eleven" />
+    <project path="vendor/xiaomi/sm6250-common" name="Project-Fluid-Devices/vendor_xiaomi_sm6250-common" remote="github" revision="fluid-11" />
 
     <!-- hardware/xiaomi from LineageOS -->
     <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-18.1" />
