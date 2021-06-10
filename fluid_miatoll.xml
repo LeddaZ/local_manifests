@@ -19,4 +19,7 @@
     <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="AOSPA/android_prebuilts_gcc_linux-x86_arm_arm-eabi" remote="github" revision="master" />
     <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="AOSPA/android_prebuilts_gcc_linux-x86_aarch64_aarch64-elf" remote="github" revision="master" />
 
+    <!-- BSG's GCam -->
+    <project path="device/xiaomi/sm6250-common/GoogleCamera" name="LeddaZ/bsgcamera" remote="gitlab" revision="master" />
+
 </manifest>
