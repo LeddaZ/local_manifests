@@ -6,7 +6,7 @@
     <project path="device/xiaomi/sm6250-common" name="LeddaZ/android_device_xiaomi_sm6250-common" remote="github" revision="statix" />
 
     <!-- Kernel source -->
-    <project path="kernel/xiaomi/sm6250" name="ArrowOS-Devices/android_kernel_xiaomi_sm6250" remote="github" revision="arrow-11.0" />
+    <project path="kernel/xiaomi/sm6250" name="LeddaZ/android_kernel_xiaomi_sm6250" remote="github" revision="kcal" />
 
     <!-- Vendor blobs -->
     <project path="vendor/xiaomi/miatoll" name="ArrowOS-Devices/android_vendor_xiaomi_miatoll" remote="github" revision="arrow-11.0" />
