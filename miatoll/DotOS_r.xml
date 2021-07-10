@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <!-- Device trees -->
+    <project path="device/xiaomi/miatoll" name="SonalSingh18/android_device_xiaomi_miatoll" remote="github" revision="eleven" />
+    <project path="device/xiaomi/sm6250-common" name="SonalSingh18/android_device_xiaomi_sm6250-common" remote="github" revision="eleven" />
+
+    <!-- Kernel source -->
+    <project path="kernel/xiaomi/sm6250" name="SonalSingh18/android_kernel_xiaomi_sm6250" remote="github" revision="eleven" />
+
+    <!-- Vendor blobs -->
+    <project path="vendor/xiaomi/miatoll" name="SonalSingh18/android_vendor_xiaomi_miatoll" remote="github" revision="eleven" />
+    <project path="vendor/xiaomi/sm6250-common" name="SonalSingh18/android_vendor_xiaomi_sm6250-common" remote="github" revision="eleven" />
+
+    <!-- hardware/xiaomi from LineageOS -->
+    <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-18.1" />
+
+</manifest>
