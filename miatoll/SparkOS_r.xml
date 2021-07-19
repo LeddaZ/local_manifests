@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-    <!-- PixelOS/PixelishExperience 11 manifest for miatoll -->
+    <!-- SparkOS manifest for miatoll -->
 
     <!-- Device trees -->
     <project path="device/xiaomi/miatoll" name="LeddaZ/android_device_xiaomi_miatoll" remote="github" revision="spark" />
@@ -13,8 +13,5 @@
     <!-- Vendor blobs -->
     <project path="vendor/xiaomi/miatoll" name="ArrowOS-Devices/android_vendor_xiaomi_miatoll" remote="github" revision="arrow-11.0" />
     <project path="vendor/xiaomi/sm6250-common" name="ArrowOS-Devices/android_vendor_xiaomi_sm6250-common" remote="github" revision="arrow-11.0" />
-
-    <!-- hardware/xiaomi from LineageOS -->
-    <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-18.1" />
 
 </manifest>
