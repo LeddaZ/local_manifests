@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <!-- Paranoid Android Ruby manifest for miatoll -->
+
+    <!-- Device trees -->
+    <project path="device/xiaomi/miatoll" name="LeddaZ/android_device_xiaomi_miatoll" remote="github" revision="ruby" />
+
+    <!-- Kernel source -->
+    <project path="kernel/msm-4.14" name="AOSPA/android_kernel_xiaomi_miatoll" remote="github" revision="ruby" />
+
+    <!-- Vendor blobs -->
+    <project path="vendor/xiaomi" name="ThankYouMario/proprietary_vendor_xiaomi" remote="github" revision="ruby" />
+
+    <!-- HALs -->
+    <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="AOSPA/android_hardware_qcom_audio" remote="github" revision="ruby-855" />
+    <project path="hardware/qcom/display" name="AOSPA/android_hardware_qcom_display" remote="github" revision="ruby-855" />
+    <project path="hardware/qcom/gps" name="AOSPA/android_hardware_qcom_gps" remote="github" revision="ruby-smxxx0" />
+    <project path="hardware/qcom/media" name="AOSPA/android_hardware_qcom_media" remote="github" revision="ruby-855" />
+    <project path="vendor/nxp/opensource/halimpl" name="AOSPA/android_vendor_nxp_opensource_halimpl" remote="github" revision="ruby-pn5xx" />
+    <project path="vendor/nxp/opensource/hidlimpl" name="platform/vendor/nxp/opensource/hidlimpl" remote="caf_vendor" revision="nfc.vendor.lnx.2.1.r5-rel" />
+
+</manifest>
