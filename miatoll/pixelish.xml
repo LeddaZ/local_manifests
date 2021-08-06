@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-    <!-- PixelOS/PixelishExperience 11 manifest for miatoll -->
+    <!-- PixelishExperience 11 manifest for miatoll -->
 
     <!-- Device trees -->
     <project path="device/xiaomi/miatoll" name="LeddaZ/android_device_xiaomi_miatoll" remote="github" revision="eleven" />
