@@ -4,21 +4,17 @@
     <!-- POSP 4.x manifest for miatoll -->
 
     <!-- Device trees -->
-    <project path="device/xiaomi/miatoll" name="LeddaZ/android_device_xiaomi_miatoll" remote="github" revision="posp" />
-    <project path="device/xiaomi/sm6250-common" name="LeddaZ/android_device_xiaomi_sm6250-common" remote="github" revision="posp" />
+    <project path="device/xiaomi/miatoll" name="LeddaZ/device_xiaomi_miatoll" remote="github" revision="posp" />
+    <project path="device/xiaomi/sm6250-common" name="LeddaZ/device_xiaomi_sm6250-common" remote="github" revision="posp" />
 
     <!-- Kernel source -->
-    <project path="kernel/xiaomi/sm6250" name="dereference23/positron_miatoll" remote="github" revision="main" />
+    <project path="kernel/xiaomi/sm6250" name="sairam1411/kernel_xiaomi_sm6250" remote="github" revision="flos" />
 
     <!-- Vendor blobs -->
-    <project path="vendor/xiaomi/miatoll" name="ArrowOS-Devices/android_vendor_xiaomi_miatoll" remote="github" revision="arrow-11.0" />
-    <project path="vendor/xiaomi/sm6250-common" name="ArrowOS-Devices/android_vendor_xiaomi_sm6250-common" remote="github" revision="arrow-11.0" />
+    <project path="vendor/xiaomi/miatoll" name="sairam1411/vendor_xiaomi_miatoll" remote="github" revision="flos" />
+    <project path="vendor/xiaomi/sm6250-common" name="sairam1411/vendor_xiaomi_sm6250-common" remote="github" revision="flos" />
 
     <!-- hardware/xiaomi from LineageOS -->
     <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-18.1" />
-
-    <!-- Kernel toolchains -->
-    <project path="prebuilts/gcc/linux-x86/arm/arm-none-eabi" name="Positron-Foundation/android_prebuilts_gcc_linux-x86_arm_arm-none-eabi" remote="github" revision="main" clone-depth="1" />
-    <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-none-elf" name="Positron-Foundation/android_prebuilts_gcc_linux-x86_aarch64_aarch64-none-elf" remote="github" revision="main" clone-depth="1" />
 
 </manifest>
