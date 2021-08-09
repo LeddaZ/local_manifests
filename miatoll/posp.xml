@@ -11,7 +11,7 @@
     <project path="kernel/xiaomi/sm6250" name="sairam1411/kernel_xiaomi_sm6250" remote="github" revision="flos" />
 
     <!-- Vendor blobs -->
-    <project path="vendor/xiaomi/miatoll" name="sairam1411/vendor_xiaomi_miatoll" remote="github" revision="flos" />
+    <project path="vendor/xiaomi/miatoll" name="sairam1411/vendor_xiaomi_miatoll" remote="github" revision="fluid-11" />
     <project path="vendor/xiaomi/sm6250-common" name="sairam1411/vendor_xiaomi_sm6250-common" remote="github" revision="flos" />
 
     <!-- hardware/xiaomi from LineageOS -->
