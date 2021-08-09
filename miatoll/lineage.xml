@@ -17,8 +17,4 @@
     <!-- hardware/xiaomi from LineageOS -->
     <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-18.1" />
 
-    <!-- Kernel toolchains -->
-    <project path="prebuilts/gcc/linux-x86/arm/arm-none-eabi" name="Positron-Foundation/android_prebuilts_gcc_linux-x86_arm_arm-none-eabi" remote="github" revision="main" clone-depth="1" />
-    <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-none-elf" name="Positron-Foundation/android_prebuilts_gcc_linux-x86_aarch64_aarch64-none-elf" remote="github" revision="main" clone-depth="1" />
-
 </manifest>
