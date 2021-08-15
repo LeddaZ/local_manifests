@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <!-- Project Radiant manifest for miatoll -->
+
+    <!-- Device trees -->
+    <project path="device/xiaomi/miatoll" name="LeddaZ/android_device_xiaomi_miatoll" remote="github" revision="radiant" />
+    <project path="device/xiaomi/sm6250-common" name="LeddaZ/android_device_xiaomi_sm6250-common" remote="github" revision="radiant" />
+
+    <!-- Kernel source -->
+    <project path="kernel/xiaomi/sm6250" name="sairam1411/kernel_xiaomi_sm6250" remote="github" revision="flos" />
+
+    <!-- Vendor blobs -->
+    <project path="vendor/xiaomi/miatoll" name="LeddaZ/android_vendor_xiaomi_miatoll" remote="github" revision="arrow-11.0" />
+    <project path="vendor/xiaomi/sm6250-common" name="LeddaZ/android_vendor_xiaomi_sm6250-common" remote="github" revision="arrow-11.0" />
+
+</manifest>
