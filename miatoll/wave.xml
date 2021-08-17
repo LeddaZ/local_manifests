@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <!-- WaveOS 4.x Rasmalai manifest for miatoll -->
+
+    <!-- Device trees -->
+    <project path="device/xiaomi/miatoll" name="LeddaZ/device_xiaomi_miatoll" remote="github" revision="r" />
+    <project path="device/xiaomi/sm6250-common" name="LeddaZ/device_xiaomi_sm6250-common" remote="github" revision="staging/wave" />
+
+    <!-- Kernel source -->
+    <project path="kernel/xiaomi/sm6250" name="sairam1411/kernel_xiaomi_sm6250" remote="github" revision="flos" />
+
+    <!-- Vendor blobs -->
+    <project path="vendor/xiaomi/miatoll" name="LeddaZ/vendor_xiaomi_miatoll" remote="github" revision="wave" />
+    <project path="vendor/xiaomi/sm6250-common" name="LeddaZ/vendor_xiaomi_sm6250-common" remote="github" revision="wave" />
+
+    <!-- hardware/xiaomi from LineageOS -->
+    <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-18.1" />
+
+</manifest>
