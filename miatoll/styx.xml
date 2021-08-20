@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-    <!-- LineageOS 18.1 manifest for miatoll -->
+    <!-- Styx Project 1.x manifest for miatoll -->
 
     <!-- Device trees -->
-    <project path="device/xiaomi/miatoll" name="Positron-Foundation/android_device_xiaomi_miatoll" remote="github" revision="lineage-18.1" />
-    <project path="device/xiaomi/sm6250-common" name="Positron-Foundation/android_device_xiaomi_sm6250-common" remote="github" revision="lineage-18.1" />
+    <project path="device/xiaomi/miatoll" name="LeddaZ/android_device_xiaomi_miatoll" remote="github" revision="styx" />
+    <project path="device/xiaomi/sm6250-common" name="LeddaZ/android_device_xiaomi_sm6250-common" remote="github" revision="styx" />
 
     <!-- Kernel source -->
-    <project path="kernel/xiaomi/sm6250" name="Positron-Foundation/android_kernel_xiaomi_sm6250" remote="github" revision="flos" />
+    <project path="kernel/xiaomi/sm6250" name="Positron-Foundation/android_kernel_xiaomi_sm6250" remote="github" revision="lineage-18.1" />
 
     <!-- Vendor blobs -->
     <project path="vendor/xiaomi/miatoll" name="Positron-Foundation/android_vendor_xiaomi_miatoll" remote="github" revision="lineage-18.1" />
