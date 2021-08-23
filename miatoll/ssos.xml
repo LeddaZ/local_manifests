@@ -17,4 +17,7 @@
     <!-- hardware/xiaomi from LineageOS -->
     <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-18.1" />
 
+    <!-- My GApps repo -->
+    <project path="vendor/gapps" name="LeddaZ/vendor_gapps" remote="gitlab" revision="android_11" clone-depth="1" />
+
 </manifest>
