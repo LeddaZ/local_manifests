@@ -17,4 +17,7 @@
     <!-- hardware/xiaomi from LineageOS -->
     <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-18.1" />
 
+    <!-- Lineage Recovery -->
+    <project path="bootable/recovery" name="LineageOS/android_bootable_recovery" remote="github" revision="lineage-18.1" />
+
 </manifest>
