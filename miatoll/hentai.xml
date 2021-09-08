@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <!-- hentaiOS Rika manifest for miatoll -->
+
+    <!-- Device trees -->
+    <project path="device/xiaomi/miatoll" name="LeddaZ/device_xiaomi_miatoll" remote="github" revision="Rika" />
+    <project path="device/xiaomi/sm6250-common" name="LeddaZ/device_xiaomi_sm6250-common" remote="github" revision="Rika" />
+
+    <!-- Prebuilt kernel and headers -->
+    <project path="device/xiaomi/sm6250-common/kernel" name="LeddaZ/device_xiaomi_sm6250-common-kernel" remote="github" revision="Rika" />
+
+    <!-- Vendor blobs -->
+    <project path="vendor/xiaomi/miatoll" name="LeddaZ/vendor_xiaomi_miatoll" remote="github" revision="lineage-18.1" />
+    <project path="vendor/xiaomi/sm6250-common" name="LeddaZ/vendor_xiaomi_sm6250-common" remote="github" revision="lineage-18.1" />
+
+    <!-- hardware/xiaomi from LineageOS -->
+    <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-18.1" />
+
+</manifest>
