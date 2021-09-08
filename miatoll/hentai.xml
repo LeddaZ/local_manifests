@@ -3,6 +3,10 @@
 
     <!-- hentaiOS Rika manifest for miatoll -->
 
+    <!-- GitHub remote -->
+    <remote name="github"
+            fetch="https://github.com/" />
+
     <!-- Device trees -->
     <project path="device/xiaomi/miatoll" name="LeddaZ/device_xiaomi_miatoll" remote="github" revision="Rika" />
     <project path="device/xiaomi/sm6250-common" name="LeddaZ/device_xiaomi_sm6250-common" remote="github" revision="Rika" />
