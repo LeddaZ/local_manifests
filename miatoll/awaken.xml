@@ -9,7 +9,7 @@
 
     <!-- GitLab remote -->
     <remote name="gitlab2"
-            fetch="https://github.com/" />
+            fetch="https://gitlab.com/" />
 
     <!-- Device trees -->
     <project path="device/xiaomi/miatoll" name="LeddaZ/android_device_xiaomi_miatoll" remote="github" revision="awaken" />
