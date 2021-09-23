@@ -3,6 +3,10 @@
 
     <!-- Project Awaken 1.x manifest for miatoll -->
 
+    <!-- GitHub remote -->
+    <remote name="github"
+            fetch="https://github.com/" />
+
     <!-- Device trees -->
     <project path="device/xiaomi/miatoll" name="LeddaZ/android_device_xiaomi_miatoll" remote="github" revision="awaken" />
     <project path="device/xiaomi/sm6250-common" name="LeddaZ/android_device_xiaomi_sm6250-common" remote="github" revision="awaken" />
