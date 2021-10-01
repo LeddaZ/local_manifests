@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <!-- StatixOS 4.x manifest for miatoll -->
+
+    <!-- Device trees -->
+    <project path="device/xiaomi/miatoll" name="LeddaZ/android_device_xiaomi_miatoll" remote="github" revision="statix" />
+    <project path="device/xiaomi/sm6250-common" name="LeddaZ/android_device_xiaomi_sm6250-common" remote="github" revision="statix" />
+
+    <!-- Kernel source -->
+    <project path="kernel/xiaomi/sm6250" name="LineageOS/android_kernel_xiaomi_sm6250" remote="github" revision="lineage-18.1" />
+
+    <!-- Vendor blobs -->
+    <project path="vendor/xiaomi" name="The-Muppets/proprietary_vendor_xiaomi" remote="gitlab" revision="lineage-18.1" />
+
+    <!-- hardware/xiaomi from LineageOS -->
+    <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-18.1" />
+
+</manifest>
