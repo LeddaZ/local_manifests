@@ -3,6 +3,10 @@
 
     <!-- Fluid 2.x Soda manifest for miatoll -->
 
+    <!-- External remotes -->
+    <remote name="github" fetch="https://github.com/" />
+    <remote name="gitlab" fetch="https://gitlab.com/" />
+
     <!-- Device trees -->
     <project path="device/xiaomi/miatoll" name="LeddaZ/android_device_xiaomi_miatoll" remote="github" revision="fluid-12" />
     <project path="device/xiaomi/sm6250-common" name="LeddaZ/android_device_xiaomi_sm6250-common" remote="github" revision="fluid-12" />
