@@ -14,7 +14,7 @@
     <project path="vendor/samsung" name="TheMuppets/proprietary_vendor_samsung" remote="github" revision="lineage-18.1" />
 
     <!-- Hardware repos -->
-    <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="github" revision="lineage-18.1" />
+    <project path="hardware/samsung" name="PixelExperience/hardware_samsung" remote="github" revision="eleven" />
     <project path="hardware/samsung/nfc" name="LineageOS/android_hardware_samsung_nfc" remote="github" revision="lineage-18.1" />
     <project path="hardware/samsung_slsi/exynos" name="LineageOS/android_hardware_samsung_slsi_exynos" remote="github" revision="lineage-18.1" />
     <project path="hardware/samsung_slsi/exynos5" name="LineageOS/android_hardware_samsung_slsi_exynos5" remote="github" revision="lineage-18.1" />
