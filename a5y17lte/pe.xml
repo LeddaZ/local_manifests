@@ -20,5 +20,6 @@
     <project path="hardware/samsung_slsi/exynos5" name="LineageOS/android_hardware_samsung_slsi_exynos5" remote="github" revision="lineage-18.1" />
     <project path="hardware/samsung_slsi/exynos7880" name="LineageOS/android_hardware_samsung_slsi_exynos7880" remote="github" revision="lineage-18.1" />
     <project path="hardware/samsung_slsi/openmax" name="LineageOS/android_hardware_samsung_slsi_openmax" remote="github" revision="lineage-18.1" />
+    <project path="hardware/lineage/interfaces" name="LineageOS/android_hardware_lineage_interfaces" remote="github" revision="lineage-18.1" />
 
 </manifest>
