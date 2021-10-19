@@ -21,4 +21,7 @@
     <project path="hardware/samsung_slsi/exynos7880" name="LineageOS/android_hardware_samsung_slsi_exynos7880" remote="github" revision="lineage-18.1" />
     <project path="hardware/samsung_slsi/openmax" name="LineageOS/android_hardware_samsung_slsi_openmax" remote="github" revision="lineage-18.1" />
 
+    <!-- FlipFlap -->
+    <project path="packages/apps/FlipFlap" name="LineageOS/android_packages_apps_FlipFlap" remote="github" revision="lineage-18.1" />
+
 </manifest>
