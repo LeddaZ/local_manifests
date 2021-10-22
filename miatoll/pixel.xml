@@ -19,9 +19,10 @@
    
     <!-- PixelOS stuff -->
     <remove-project name="build" />
-    <remove-project name="build/soong" />
+    <remove-project name="build_soong" />
     <remove-project name="frameworks_base" />
     <remove-project name="frameworks_native" />
+    <remove-project name="hardware_ril" />
     <remove-project name="system_core" />
     <project path="build" name="PixelOS-Devices/build" revision="twelve" remote="github" />
     <project path="build/soong" name="LeddaZ/build_soong" remote="github" revision="twelve">
@@ -30,6 +31,7 @@
     </project>
     <project path="frameworks/base" name="LeddaZ/frameworks_base" revision="twelve" remote="github" />
     <project path="frameworks/native" name="PixelOS-Devices/frameworks_native" revision="twelve" remote="github" />
+    <project path="hardware/ril" name="LeddaZ/hardware_ril" revision="twelve" remote="github" />
     <project path="system/core" name="PixelOS-Devices/system_core" revision="twelve" remote="github" />
 
 </manifest>
