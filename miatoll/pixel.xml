@@ -11,7 +11,7 @@
     <project path="kernel/xiaomi/sm6250" name="LeddaZ/android_kernel_xiaomi_sm6250" remote="github" revision="pizza" />
 
     <!-- Vendor blobs -->
-    <project path="vendor/xiaomi/miatoll" name="Arjun-Ingole/android_vendor_xiaomi_miatoll" remote="github" revision="R" />
+    <project path="vendor/xiaomi/miatoll" name="Arjun-Ingole/vendor_xiaomi_miatoll" remote="github" revision="R" />
     <project path="vendor/xiaomi/sm6250-common" name="LeddaZ/android_vendor_xiaomi_sm6250-common" remote="github" revision="android-12" />
 
     <!-- hardware/xiaomi from xiaomi-sm8250-devs -->
