@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <!-- PixelOS 12 manifest for miatoll -->
+
+    <!-- External remotes -->
+    <remote name="gitlab" fetch="https://gitlab.com/" />
+
+    <!-- Device trees -->
+    <project path="device/xiaomi/miatoll" name="LeddaZ/android_device_xiaomi_miatoll" remote="github" revision="twelve" />
+    <project path="device/xiaomi/sm6250-common" name="LeddaZ/device_xiaomi_sm6250-common" remote="github" revision="twelve" />
+
+    <!-- Kernel source -->
+    <project path="kernel/xiaomi/sm6250" name="LeddaZ/android_kernel_xiaomi_sm6250" remote="github" revision="pizza" />
+
+    <!-- Vendor blobs -->
+    <project path="vendor/xiaomi" name="The-Muppets/proprietary_vendor_xiaomi" remote="github" revision="lineage-18.1" />
+
+    <!-- hardware/xiaomi from xiaomi-sm8250-devs -->
+    <project path="hardware/xiaomi" name="xiaomi-sm8250-devs/android_hardware_xiaomi" remote="github" revision="lineage-19.0" />
+   
+    <!-- PixelOS stuff -->
+    <remove-project name="build" />
+    <remove-project name="device/qcom/sepolicy_vndr" />
+    <remove-project name="frameworks_base" />
+    <remove-project name="frameworks_native" />
+    <remove-project name="system_core" />
+    <project path="build" name="PixelOS-Devices/build" revision="twelve" remote="github" />
+    <project path="device/qcom/sepolicy_vndr" name="jjpprrrr/device_qcom_sepolicy_vndr" revision="twelve" remote="github" />
+    <project path="frameworks/base" name="PixelOS-Devices/frameworks_base-1" revision="twelve" remote="github" />
+    <project path="frameworks/native" name="PixelOS-Devices/frameworks_native" revision="twelve" remote="github" />
+    <project path="system/core" name="PixelOS-Devices/system_core" revision="twelve" remote="github" />
+
+</manifest>
