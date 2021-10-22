@@ -12,7 +12,7 @@
 
     <!-- Vendor blobs -->
     <project path="vendor/xiaomi/miatoll" name="Arjun-Ingole/vendor_xiaomi_miatoll" remote="github" revision="R" />
-    <project path="vendor/xiaomi/sm6250-common" name="LeddaZ/android_vendor_xiaomi_sm6250-common" remote="github" revision="android-12" />
+    <project path="vendor/xiaomi/sm6250-common" name="LeddaZ/android_vendor_xiaomi_sm6250-common" remote="github" revision="twelve" />
 
     <!-- hardware/xiaomi from xiaomi-sm8250-devs -->
     <project path="hardware/xiaomi" name="xiaomi-sm8250-devs/android_hardware_xiaomi" remote="github" revision="lineage-19.0" />
@@ -24,6 +24,7 @@
     <remove-project name="frameworks_native" />
     <remove-project name="hardware_ril" />
     <remove-project name="system_core" />
+    <remove-project name="vendor_aosp" />
     <project path="build/make" name="PixelOS-Devices/build" remote="github" revision="twelve">
       <copyfile src="core/root.mk" dest="Makefile" />
       <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -41,5 +42,6 @@
     <project path="frameworks/native" name="PixelOS-Devices/frameworks_native" revision="twelve" remote="github" />
     <project path="hardware/ril" name="LeddaZ/hardware_ril" revision="twelve" remote="github" />
     <project path="system/core" name="PixelOS-Devices/system_core" revision="twelve" remote="github" />
+    <project path="vendor/aosp" name="LeddaZ/vendor_aosp" revision="twelve" remote="github" />
 
 </manifest>
