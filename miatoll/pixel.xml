@@ -7,29 +7,33 @@
     <remove-project name="build_soong" />
     <remove-project name="frameworks_base" />
     <remove-project name="hardware_custom_interfaces" />
+    <remove-project name="hardware_google_pixel" />
+    <remove-project name="hardware_ril" />
 
     <!-- Device trees -->
-    <project path="device/xiaomi/miatoll" name="LeddaZ/android_device_xiaomi_miatoll" remote="github" revision="twelve" />
-    <project path="device/xiaomi/sm6250-common" name="LeddaZ/android_device_xiaomi_sm6250-common" remote="github" revision="twelve" />
+    <project path="device/xiaomi/miatoll" name="LeddaZ/android_device_xiaomi_miatoll" revision="twelve" remote="github" />
+    <project path="device/xiaomi/sm6250-common" name="LeddaZ/android_device_xiaomi_sm6250-common" revision="twelve" remote="github" />
 
     <!-- Kernel source -->
-    <project path="kernel/xiaomi/sm6250" name="LeddaZ/android_kernel_xiaomi_sm6250" remote="github" revision="pizza" />
+    <project path="kernel/xiaomi/sm6250" name="LeddaZ/android_kernel_xiaomi_sm6250" revision="pizza" remote="github" />
 
     <!-- Vendor blobs -->
-    <project path="vendor/xiaomi/miatoll" name="LeddaZ/android_vendor_xiaomi_miatoll" remote="github" revision="twelve" />
-    <project path="vendor/xiaomi/sm6250-common" name="LeddaZ/android_vendor_xiaomi_sm6250-common" remote="github" revision="twelve" />
+    <project path="vendor/xiaomi/miatoll" name="LeddaZ/android_vendor_xiaomi_miatoll" revision="R" remote="github" />
+    <project path="vendor/xiaomi/sm6250-common" name="LeddaZ/android_vendor_xiaomi_sm6250-common" revision="android-12" remote="github" />
 
     <!-- hardware/xiaomi from xiaomi-sm8250-devs -->
-    <project path="hardware/xiaomi" name="xiaomi-sm8250-devs/android_hardware_xiaomi" remote="github" revision="lineage-19.0" />
+    <project path="hardware/xiaomi" name="xiaomi-sm8250-devs/android_hardware_xiaomi" revision="lineage-19.0" remote="github" />
 
     <!-- Repos from LineageOS -->
     <project path="hardware/lineage/interfaces" name="LineageOS/android_hardware_lineage_interfaces" revision="lineage-19.0" remote="github" />
    
     <!-- Repos from me -->
-    <project path="build/soong" name="LeddaZ/build_soong" remote="github" revision="twelve">
+    <project path="build/soong" name="LeddaZ/build_soong" revision="twelve" remote="github">
       <linkfile src="root.bp" dest="Android.bp" />
       <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     </project>
     <project path="frameworks/base" name="LeddaZ/frameworks_base" revision="twelve" remote="github" />
+    <project path="hardware/google/pixel" name="LeddaZ/hardware_google_pixel" revision="master" remote="github" />
+    <project path="hardware/ril" name="LeddaZ/hardware_ril" revision="twelve" remote="github" />
 
 </manifest>
