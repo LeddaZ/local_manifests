@@ -9,6 +9,7 @@
     <remove-project name="hardware_custom_interfaces" />
     <remove-project name="hardware_google_pixel" />
     <remove-project name="hardware_ril" />
+    <remove-project name="vendor_qcom_opensource_audio-hal_st-hal" />
 
     <!-- Device trees -->
     <project path="device/xiaomi/miatoll" name="LeddaZ/android_device_xiaomi_miatoll" revision="twelve" remote="github" />
