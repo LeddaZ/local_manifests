@@ -5,6 +5,7 @@
 
     <!-- Projects to remove -->
     <remove-project name="build_soong" />
+    <remove-project name="device_custom_sepolicy" />
     <remove-project name="frameworks_base" />
     <remove-project name="hardware_custom_interfaces" />
     <remove-project name="hardware_ril" />
@@ -31,6 +32,7 @@
       <linkfile src="root.bp" dest="Android.bp" />
       <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     </project>
+    <project path="device/custom/sepolicy" name="LeddaZ/device_custom_sepolicy" revision="twelve" remote="github" />
     <project path="frameworks/base" name="LeddaZ/frameworks_base" revision="twelve" remote="github" />
     <project path="hardware/ril" name="LeddaZ/hardware_ril" revision="twelve" remote="github" />
 
