@@ -7,7 +7,6 @@
     <remove-project name="build_soong" />
     <remove-project name="frameworks_base" />
     <remove-project name="hardware_custom_interfaces" />
-    <remove-project name="hardware_google_pixel" />
     <remove-project name="hardware_ril" />
 
     <!-- Device trees -->
@@ -33,7 +32,6 @@
       <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     </project>
     <project path="frameworks/base" name="LeddaZ/frameworks_base" revision="twelve" remote="github" />
-    <project path="hardware/google/pixel" name="LeddaZ/hardware_google_pixel" revision="master" remote="github" />
     <project path="hardware/ril" name="LeddaZ/hardware_ril" revision="twelve" remote="github" />
 
 </manifest>
