@@ -17,6 +17,9 @@
     <!-- Vendor blobs -->
     <project path="vendor/xiaomi/miatoll" name="LeddaZ/android_vendor_xiaomi_miatoll" revision="R" remote="github" />
     <project path="vendor/xiaomi/sm6250-common" name="LeddaZ/android_vendor_xiaomi_sm6250-common" revision="android-12" remote="github" />
+
+    <!-- Repos from ArrowOS -->
+    <project path="hardware/xiaomi" name="ArrowOS/android_hardware_xiaomi" revision="arrow-12.0" remote="github" />
    
     <!-- Repos from me -->
     <project path="build/soong" name="LeddaZ/android_build_soong" revision="arrow-12.0" remote="github">
