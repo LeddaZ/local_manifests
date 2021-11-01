@@ -9,6 +9,7 @@
     <remove-project name="frameworks_base" />
     <remove-project name="hardware_custom_interfaces" />
     <remove-project name="hardware_ril" />
+    <remove-project name="vendor_aosp" />
 
     <!-- Device trees -->
     <project path="device/xiaomi/miatoll" name="LeddaZ/android_device_xiaomi_miatoll" revision="twelve" remote="github" />
@@ -35,5 +36,6 @@
     <project path="device/custom/sepolicy" name="LeddaZ/device_custom_sepolicy" revision="twelve" remote="github" />
     <project path="frameworks/base" name="LeddaZ/frameworks_base" revision="twelve" remote="github" />
     <project path="hardware/ril" name="LeddaZ/hardware_ril" revision="twelve" remote="github" />
+    <project path="vendor/aosp" name="LeddaZ/vendor_aosp" revision="twelve" remote="github" />
 
 </manifest>
