@@ -9,6 +9,7 @@
     <remove-project name="frameworks_base" />
     <remove-project name="hardware_custom_interfaces" />
     <remove-project name="hardware_ril" />
+    <remove-project name="platform/external/noto-fonts" />
     <remove-project name="platform/external/roboto-fonts" />
     <remove-project name="vendor_aosp" />
 
