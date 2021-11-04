@@ -3,6 +3,9 @@
 
     <!-- Fluid 2.x Soda manifest for miatoll -->
 
+    <!-- External remotes -->
+    <remote name="github" fetch="https://github.com/" />
+
     <!-- Projects to remove -->
     <remove-project name="build_soong" />
     <remove-project name="frameworks_base" />
