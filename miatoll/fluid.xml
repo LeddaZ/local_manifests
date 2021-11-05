@@ -26,14 +26,12 @@
     <!-- hardware/xiaomi from xiaomi-sm8250-devs -->
     <project path="hardware/xiaomi" name="xiaomi-sm8250-devs/android_hardware_xiaomi" revision="lineage-19.0" remote="github" />
 
-    <!-- Repos from PixelExperience -->
-    <project path="vendor/gapps" name="PixelExperience/vendor_gapps" revision="twelve" remote="gitlab" />
-
     <!-- Repos from me -->
     <project path="build/soong" name="LeddaZ/fluid_build_soong" revision="fluid-12" remote="github">
       <linkfile src="root.bp" dest="Android.bp" />
       <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     </project>
     <project path="frameworks/base" name="LeddaZ/fluid_frameworks_base" revision="fluid-12" remote="github" />
+    <project path="vendor/gapps" name="LeddaZ/vendor_gapps" revision="twelve" remote="gitlab" />
 
 </manifest>
