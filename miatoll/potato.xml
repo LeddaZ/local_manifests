@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <!-- POSP 5.x manifest for miatoll -->
+
+    <!-- Projects to remove -->
+    <remove-project name="build_soong" />
+    <remove-project name="device_potato_sepolicy" />
+    <remove-project name="frameworks_base" />
+    <remove-project name="packages_apps_Settings" />
+
+    <!-- Device trees -->
+    <project path="device/xiaomi/miatoll" name="LeddaZ/android_device_xiaomi_miatoll" revision="frico-release" remote="github" />
+    <project path="device/xiaomi/sm6250-common" name="LeddaZ/android_device_xiaomi_sm6250-common" revision="frico-release" remote="github" />
+
+    <!-- Kernel source -->
+    <project path="kernel/xiaomi/sm6250" name="LeddaZ/android_kernel_xiaomi_sm6250" revision="pizza" remote="github" />
+
+    <!-- Vendor blobs -->
+    <project path="vendor/xiaomi/miatoll" name="LeddaZ/android_vendor_xiaomi_miatoll" revision="R" remote="github" />
+    <project path="vendor/xiaomi/sm6250-common" name="LeddaZ/android_vendor_xiaomi_sm6250-common" revision="android-12" remote="github" />
+
+    <!-- Repos from POSP -->
+    <project path="hardware/xiaomi" name="PotatoDevices/hardware_xiaomi" revision="frico-release" remote="github" />
+    <project path="vendor/google/gms" name="potatodevices/vendor_google_gms" revision="frico-release" remote="gitlab" /> 
+
+    <!-- Repos from LineageOS -->
+    <project path="hardware/lineage/interfaces" name="LineageOS/android_hardware_lineage_interfaces" revision="lineage-19.0" remote="github" />
+      
+    <!-- Repos from me -->
+    <project path="build/soong" name="LeddaZ/potato_build_soong" revision="frico-release" remote="github">
+      <linkfile src="root.bp" dest="Android.bp" />
+      <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+    </project>
+    <project path="device/potato/sepolicy" name="LeddaZ/device_potato_sepolicy" revision="frico-release" remote="github" />
+    <project path="frameworks/base" name="LeddaZ/potato_frameworks_base" revision="frico-release" remote="github" />
+    <project path="packages/apps/Settings" name="LeddaZ/potato_packages_apps_Settings" revision="frico-release" remote="github" />
+
+</manifest>
