@@ -27,6 +27,11 @@
 
     <!-- Repos from LineageOS -->
     <project path="hardware/lineage/interfaces" name="LineageOS/android_hardware_lineage_interfaces" revision="lineage-19.0" remote="github" />
+    
+    <!-- Repos from ProtonAOSP -->
+    <project name="ProtonAOSP/android_external_colorkt" path="external/colorkt" remote="github" revision="sc" />
+    <project name="ProtonAOSP/android_external_themelib" path="external/themelib" remote="github" revision="sc" />
+
    
     <!-- Repos from me -->
     <project path="build/soong" name="LeddaZ/build_soong" revision="twelve" remote="github">
