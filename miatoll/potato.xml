@@ -6,6 +6,7 @@
     <!-- Projects to remove -->
     <remove-project name="build_soong" />
     <remove-project name="device_potato_sepolicy" />
+    <remove-project name="frameworks_av" />
     <remove-project name="frameworks_base" />
     <remove-project name="packages_apps_Settings" />
     <remove-project name="vendor_potato" />
@@ -34,6 +35,7 @@
       <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     </project>
     <project path="device/potato/sepolicy" name="LeddaZ/device_potato_sepolicy" revision="frico-release" remote="github" />
+    <project path="frameworks/av" name="LeddaZ/frameworks_av" revision="frico-release" remote="github" />
     <project path="frameworks/base" name="LeddaZ/potato_frameworks_base" revision="frico-release" remote="github" />
     <project path="packages/apps/Settings" name="LeddaZ/potato_packages_apps_Settings" revision="frico-release" remote="github" />
     <project path="vendor/potato" name="LeddaZ/vendor_potato" revision="frico-release" remote="github" />
