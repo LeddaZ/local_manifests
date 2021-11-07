@@ -28,6 +28,9 @@
 
     <!-- Repos from LineageOS -->
     <project path="hardware/lineage/interfaces" name="LineageOS/android_hardware_lineage_interfaces" revision="lineage-19.0" remote="github" />
+
+    <!-- Repos from ArrowOS -->
+    <project path="vendor/support" name="ArrowOS/android_vendor_support" revision="arrow-12.0" remote="github" />
       
     <!-- Repos from me -->
     <project path="build/soong" name="LeddaZ/potato_build_soong" revision="frico-release" remote="github">
