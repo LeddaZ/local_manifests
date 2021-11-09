@@ -6,9 +6,13 @@
     <!-- Projects to remove -->
     <remove-project name="build_soong" />
     <remove-project name="device_potato_sepolicy" />
+    <remove-project name="device_qcom_sepolicy_vndr" />
+    <remove-project name="device_qcom_sepolicy-legacy-um" />
     <remove-project name="frameworks_av" />
     <remove-project name="frameworks_base" />
+    <remove-project name="frameworks_native" />
     <remove-project name="packages_apps_Settings" />
+    <remove-project name="packages_apps_Updater" />
     <remove-project name="vendor_potato" />
 
     <!-- Device trees -->
@@ -41,9 +45,13 @@
       <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     </project>
     <project path="device/potato/sepolicy" name="LeddaZ/device_potato_sepolicy" revision="frico-release" remote="github" />
+    <project path="device/qcom/sepolicy_vndr" name="LeddaZ/device_qcom_sepolicy_vndr" revision="frico-release" remote="github" />
+    <project path="device/qcom/sepolicy-legacy-um" name="LeddaZ/device_qcom_sepolicy-legacy-um" revision="frico-release" remote="github" />
     <project path="frameworks/av" name="LeddaZ/frameworks_av" revision="frico-release" remote="github" />
     <project path="frameworks/base" name="LeddaZ/potato_frameworks_base" revision="frico-release" remote="github" />
+    <project path="frameworks/native" name="LeddaZ/potato_frameworks_native" revision="frico-release" remote="github" />
     <project path="packages/apps/Settings" name="LeddaZ/potato_packages_apps_Settings" revision="frico-release" remote="github" />
+    <project path="packages/apps/Updater" name="LeddaZ/packages_apps_Updater" revision="frico-release" remote="github" />
     <project path="vendor/potato" name="LeddaZ/vendor_potato" revision="frico-release" remote="github" />
 
 </manifest>
