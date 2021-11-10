@@ -3,18 +3,6 @@
 
     <!-- POSP 5.x manifest for miatoll -->
 
-    <!-- Projects to remove -->
-    <remove-project name="build_soong" />
-    <remove-project name="device_potato_sepolicy" />
-    <remove-project name="device_qcom_sepolicy_vndr" />
-    <remove-project name="device_qcom_sepolicy-legacy-um" />
-    <remove-project name="frameworks_av" />
-    <remove-project name="frameworks_base" />
-    <remove-project name="frameworks_native" />
-    <remove-project name="packages_apps_Settings" />
-    <remove-project name="packages_apps_Updater" />
-    <remove-project name="vendor_potato" />
-
     <!-- Device trees -->
     <project path="device/xiaomi/miatoll" name="LeddaZ/android_device_xiaomi_miatoll" revision="frico-release" remote="github" />
     <project path="device/xiaomi/sm6250-common" name="LeddaZ/android_device_xiaomi_sm6250-common" revision="frico-release" remote="github" />
@@ -28,30 +16,5 @@
 
     <!-- Repos from POSP -->
     <project path="hardware/xiaomi" name="PotatoDevices/hardware_xiaomi" revision="frico-release" remote="github" />
-    <project path="vendor/google/gms" name="potatodevices/vendor_google_gms" revision="frico-release" remote="gitlab" /> 
-
-    <!-- Repos from LineageOS -->
-    <project path="hardware/lineage/interfaces" name="LineageOS/android_hardware_lineage_interfaces" revision="lineage-19.0" remote="github" />
-
-    <!-- Repos from ArrowOS -->
-    <project path="vendor/support" name="ArrowOS/android_vendor_support" revision="arrow-12.0" remote="github" />
-
-    <!-- Repos from ProtonAOSP -->
-    <project path="packages/apps/SimpleDeviceConfig" name="ProtonAOSP/android_packages_apps_SimpleDeviceConfig" revision="sc" remote="github" />
-      
-    <!-- Repos from me -->
-    <project path="build/soong" name="LeddaZ/potato_build_soong" revision="frico-release" remote="github">
-      <linkfile src="root.bp" dest="Android.bp" />
-      <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
-    </project>
-    <project path="device/potato/sepolicy" name="LeddaZ/device_potato_sepolicy" revision="frico-release" remote="github" />
-    <project path="device/qcom/sepolicy_vndr" name="LeddaZ/device_qcom_sepolicy_vndr" revision="frico-release" remote="github" />
-    <project path="device/qcom/sepolicy-legacy-um" name="LeddaZ/device_qcom_sepolicy-legacy-um" revision="frico-release" remote="github" />
-    <project path="frameworks/av" name="LeddaZ/frameworks_av" revision="frico-release" remote="github" />
-    <project path="frameworks/base" name="LeddaZ/potato_frameworks_base" revision="frico-release" remote="github" />
-    <project path="frameworks/native" name="LeddaZ/potato_frameworks_native" revision="frico-release" remote="github" />
-    <project path="packages/apps/Settings" name="LeddaZ/potato_packages_apps_Settings" revision="frico-release" remote="github" />
-    <project path="packages/apps/Updater" name="LeddaZ/packages_apps_Updater" revision="frico-release" remote="github" />
-    <project path="vendor/potato" name="LeddaZ/vendor_potato" revision="frico-release" remote="github" />
 
 </manifest>
