@@ -9,6 +9,7 @@
     <!-- Projects to remove -->
     <remove-project name="build_soong" />
     <remove-project name="frameworks_base" />
+    <remove-project name="vendor_fluid" />
 
     <!-- Device trees -->
     <project path="device/xiaomi/miatoll" name="LeddaZ/android_device_xiaomi_miatoll" revision="fluid-12" remote="github" />
@@ -18,7 +19,7 @@
     <project path="kernel/xiaomi/sm6250" name="LeddaZ/android_kernel_xiaomi_sm6250" revision="pizza" remote="github" />
 
     <!-- Vendor blobs -->
-    <project path="vendor/xiaomi/miatoll" name="LeddaZ/android_vendor_xiaomi_miatoll" revision="R" remote="github" />
+    <project path="vendor/xiaomi/miatoll" name="LeddaZ/android_vendor_xiaomi_miatoll" revision="twelve" remote="github" />
     <project path="vendor/xiaomi/sm6250-common" name="LeddaZ/android_vendor_xiaomi_sm6250-common" revision="android-12" remote="github" />
 
     <!-- hardware/xiaomi from xiaomi-sm8250-devs -->
@@ -30,5 +31,6 @@
       <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     </project>
     <project path="frameworks/base" name="LeddaZ/fluid_frameworks_base" revision="fluid-12" remote="github" />
+    <project path="frameworks/base" name="LeddaZ/vendor_fluid" revision="fluid-12" remote="github" />
 
 </manifest>
