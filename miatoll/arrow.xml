@@ -3,10 +3,6 @@
 
     <!-- ArrowOS 12 manifest for miatoll -->
 
-    <!-- Projects to remove -->
-    <remove-project name="android_build_soong" />
-    <remove-project name="android_frameworks_base" />
-
     <!-- Device trees -->
     <project path="device/xiaomi/miatoll" name="LeddaZ/android_device_xiaomi_miatoll" revision="arrow-12.0" remote="github" />
     <project path="device/xiaomi/sm6250-common" name="LeddaZ/android_device_xiaomi_sm6250-common" revision="arrow-12.0" remote="github" />
@@ -20,12 +16,5 @@
 
     <!-- Repos from ArrowOS -->
     <project path="hardware/xiaomi" name="ArrowOS-Devices/android_hardware_xiaomi" revision="arrow-12.0" remote="github" />
-   
-    <!-- Repos from me -->
-    <project path="build/soong" name="LeddaZ/android_build_soong" revision="arrow-12.0" remote="github">
-      <linkfile src="root.bp" dest="Android.bp" />
-      <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
-    </project>
-    <project path="frameworks/base" name="LeddaZ/android_frameworks_base" revision="arrow-12.0" remote="github" />
 
 </manifest>
