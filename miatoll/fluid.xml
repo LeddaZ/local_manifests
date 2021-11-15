@@ -31,6 +31,6 @@
       <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     </project>
     <project path="frameworks/base" name="LeddaZ/fluid_frameworks_base" revision="fluid-12" remote="github" />
-    <project path="frameworks/base" name="LeddaZ/vendor_fluid" revision="fluid-12" remote="github" />
+    <project path="vendor/fluid" name="LeddaZ/vendor_fluid" revision="fluid-12" remote="github" />
 
 </manifest>
