@@ -3,11 +3,6 @@
 
     <!-- AospExtended 9.x manifest for miatoll -->
 
-    <!-- Projects to remove -->
-    <remove-project name="platform_build_soong" />
-    <remove-project name="platform_hardware_aosp_interfaces" />
-    <remove-project name="platform_packages_apps_Settings" />
-
     <!-- Device trees -->
     <project path="device/xiaomi/miatoll" name="LeddaZ/android_device_xiaomi_miatoll" revision="fluid-12" remote="github" />
     <project path="device/xiaomi/sm6250-common" name="LeddaZ/android_device_xiaomi_sm6250-common" revision="fluid-12" remote="github" />
@@ -21,13 +16,5 @@
 
     <!-- hardware/xiaomi from ArrowOS -->
     <project path="hardware/xiaomi" name="ArrowOS-Devices/android_hardware_xiaomi" revision="arrow-12.0" remote="github" />
-
-    <!-- Repos from me -->
-    <project path="build/soong" name="LeddaZ/platform_build_soong" revision="12.x" remote="github">
-      <linkfile src="root.bp" dest="Android.bp" />
-      <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
-    </project>
-    <project path="hardware/aosp/interfaces" name="LeddaZ/platform_hardware_aosp_interfaces" revision="12.x" remote="github" />
-    <project path="packages/apps/Settings" name="LeddaZ/platform_packages_apps_Settings" revision="12.x" remote="github" />
 
 </manifest>
