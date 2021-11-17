@@ -15,7 +15,7 @@
     <project path="vendor/xiaomi/sm6250-common" name="LeddaZ/android_vendor_xiaomi_sm6250-common" revision="android-12" remote="github" />
 
     <!-- Repos from ArrowOS -->
-    <project path="hardware/xiaomi" name="ArrowOS-Devices/android_hardware_xiaomi" revision="arrow-12.0-caf-sm8150" remote="github" />
+    <project path="hardware/xiaomi" name="ArrowOS-Devices/android_hardware_xiaomi" revision="arrow-12.0" remote="github" />
     <project path="hardware/qcom-caf/sm8150/audio" name="ArrowOS/android_hardware_qcom_audio" revision="arrow-12.0-caf-sm8150" remote="github" />
     <project path="hardware/qcom-caf/sm8150/display" name="ArrowOS/android_hardware_qcom_display" revision="arrow-12.0-caf-sm8150" remote="github" />
     <project path="hardware/qcom-caf/sm8150/media" name="ArrowOS/android_hardware_qcom_media"  revision="arrow-12.0-caf-sm8150" remote="github" />
