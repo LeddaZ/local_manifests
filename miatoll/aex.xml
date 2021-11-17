@@ -3,6 +3,12 @@
 
     <!-- AospExtended 9.x manifest for miatoll -->
 
+    <!-- Projects to remove -->
+    <remove-project name="platform_build_soong" />
+    <remove-project name="platform_device_aosp_sepolicy" />
+    <remove-project name="platform_device_qcom_sepolicy_vndr" />
+    <remove-project name="platform_hardware_aosp_interfaces" />
+
     <!-- Device trees -->
     <project path="device/xiaomi/miatoll" name="LeddaZ/android_device_xiaomi_miatoll" revision="12.x" remote="github" />
     <project path="device/xiaomi/sm6250-common" name="LeddaZ/android_device_xiaomi_sm6250-common" revision="12.x" remote="github" />
@@ -19,5 +25,14 @@
     <project path="hardware/qcom-caf/sm8150/audio" name="ArrowOS/android_hardware_qcom_audio" revision="arrow-12.0-caf-sm8150" remote="github" />
     <project path="hardware/qcom-caf/sm8150/display" name="ArrowOS/android_hardware_qcom_display" revision="arrow-12.0-caf-sm8150" remote="github" />
     <project path="hardware/qcom-caf/sm8150/media" name="ArrowOS/android_hardware_qcom_media"  revision="arrow-12.0-caf-sm8150" remote="github" />
+
+    <!-- Repos from me -->
+    <project path="build/soong" name="LeddaZ/platform_build_soong" remote="github" revision="12.x" >
+        <linkfile src="root.bp" dest="Android.bp" />
+        <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+    </project>
+    <project path="device/aosp/sepolicy" name="LeddaZ/platform_device_aosp_sepolicy" remote="github" revision="12.x" />
+    <project path="device/qcom/sepolicy_vndr" name="LeddaZ/platform_device_qcom_sepolicy_vndr" remote="github" revision="12.x" />
+    <project path="hardware/aosp/interfaces" name="LeddaZ/platform_hardware_aosp_interfaces" remote="github" revision="12.x" />
 
 </manifest>
