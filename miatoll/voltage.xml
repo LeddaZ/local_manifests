@@ -3,6 +3,9 @@
 
     <!-- VoltageOS 1.x manifest for miatoll -->
 
+    <!-- External remotes -->
+    <remote name="github" fetch="https://github.com/" />
+
     <!-- Device trees -->
     <project path="device/xiaomi/miatoll" name="LeddaZ/android_device_xiaomi_miatoll" revision="voltage" remote="github" />
     <project path="device/xiaomi/sm6250-common" name="LeddaZ/android_device_xiaomi_sm6250-common" revision="voltage" remote="github" />
