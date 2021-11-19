@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <!-- VoltageOS 1.x manifest for miatoll -->
+
+    <!-- Device trees -->
+    <project path="device/xiaomi/miatoll" name="LeddaZ/android_device_xiaomi_miatoll" revision="voltage" remote="github" />
+    <project path="device/xiaomi/sm6250-common" name="LeddaZ/android_device_xiaomi_sm6250-common" revision="voltage" remote="github" />
+
+    <!-- Kernel source -->
+    <project path="kernel/xiaomi/sm6250" name="LeddaZ/android_kernel_xiaomi_sm6250" revision="pizza" remote="github" />
+
+    <!-- Vendor blobs -->
+    <project path="vendor/xiaomi/miatoll" name="LeddaZ/android_vendor_xiaomi_miatoll" revision="twelve" remote="github" />
+    <project path="vendor/xiaomi/sm6250-common" name="LeddaZ/android_vendor_xiaomi_sm6250-common" revision="android-12" remote="github" />
+
+</manifest>
