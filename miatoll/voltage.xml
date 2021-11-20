@@ -6,6 +6,9 @@
     <!-- External remotes -->
     <remote name="github" fetch="https://github.com/" />
 
+    <!-- Projects to remove -->
+    <remove-project name="frameworks_base"
+
     <!-- Device trees -->
     <project path="device/xiaomi/miatoll" name="LeddaZ/android_device_xiaomi_miatoll" revision="voltage" remote="github" />
     <project path="device/xiaomi/sm6250-common" name="LeddaZ/android_device_xiaomi_sm6250-common" revision="voltage" remote="github" />
@@ -16,5 +19,8 @@
     <!-- Vendor blobs -->
     <project path="vendor/xiaomi/miatoll" name="LeddaZ/android_vendor_xiaomi_miatoll" revision="twelve" remote="github" />
     <project path="vendor/xiaomi/sm6250-common" name="LeddaZ/android_vendor_xiaomi_sm6250-common" revision="android-12" remote="github" />
+
+    <!-- Repos from me -->
+    <project path="frameworks/base" name="LeddaZ/voltage_frameworks_base" revision="12" remote="github" />
 
 </manifest>
