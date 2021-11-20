@@ -7,7 +7,7 @@
     <remote name="github" fetch="https://github.com/" />
 
     <!-- Projects to remove -->
-    <remove-project name="frameworks_base"
+    <remove-project name="frameworks_base" />
 
     <!-- Device trees -->
     <project path="device/xiaomi/miatoll" name="LeddaZ/android_device_xiaomi_miatoll" revision="voltage" remote="github" />
