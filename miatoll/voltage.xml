@@ -8,6 +8,7 @@
     <remote name="gitlab" fetch="https://gitlab.com/" />
 
     <!-- Projects to remove -->
+    <remove-project name="build_soong" />
     <remove-project name="frameworks_base" />
     <remove-project name="vendor_voltage" />
 
@@ -23,6 +24,10 @@
     <project path="vendor/xiaomi/sm6250-common" name="LeddaZ/android_vendor_xiaomi_sm6250-common" revision="android-12" remote="github" />
 
     <!-- Repos from me -->
+    <project path="build/soong" name="LeddaZ/voltage_build_soong" revision="12" remote="github" >
+        <linkfile src="root.bp" dest="Android.bp" />
+        <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+    </project>
     <project path="frameworks/base" name="LeddaZ/voltage_frameworks_base" revision="12" remote="github" />
     <project path="vendor/voltage" name="LeddaZ/vendor_voltage" revision="12" remote="github" />
 
