@@ -5,9 +5,11 @@
 
     <!-- External remotes -->
     <remote name="github" fetch="https://github.com/" />
+    <remote name="gitlab" fetch="https://gitlab.com/" />
 
     <!-- Projects to remove -->
     <remove-project name="frameworks_base" />
+    <remove-project name="vendor_voltage" />
 
     <!-- Device trees -->
     <project path="device/xiaomi/miatoll" name="LeddaZ/android_device_xiaomi_miatoll" revision="voltage" remote="github" />
@@ -22,5 +24,9 @@
 
     <!-- Repos from me -->
     <project path="frameworks/base" name="LeddaZ/voltage_frameworks_base" revision="12" remote="github" />
+    <project path="vendor/voltage" name="LeddaZ/vendor_voltage" revision="12" remote="github" />
+
+    <!-- Repos from Awaken -->
+    <project path="vendor/gms" name="Project-Awaken/android_vendor_gms" remote="gitlab" clone-depth="1" />
 
 </manifest>
