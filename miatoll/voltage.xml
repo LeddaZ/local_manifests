@@ -27,6 +27,6 @@
     <project path="vendor/voltage" name="LeddaZ/vendor_voltage" revision="12" remote="github" />
 
     <!-- Repos from Awaken -->
-    <project path="vendor/gms" name="Project-Awaken/android_vendor_gms" remote="gitlab" clone-depth="1" />
+    <project path="vendor/gms" name="Project-Awaken/android_vendor_gms" revision="12" remote="gitlab" clone-depth="1" />
 
 </manifest>
