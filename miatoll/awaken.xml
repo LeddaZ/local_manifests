@@ -13,6 +13,7 @@
     <remove-project name="platform/external/roboto-fonts" />
     <remove-project name="platform/external/google-fonts/cutive-mono" />
     <remove-project name="platform/packages/apps/CarrierConfig" />
+    <remove-project name="android_vendor_awaken" />
 
     <!-- Device trees -->
     <project path="device/xiaomi/miatoll" name="LeddaZ/android_device_xiaomi_miatoll" revision="awaken" remote="github" />
@@ -35,6 +36,7 @@
     <project path="frameworks/base" name="LeddaZ/android_frameworks_base" revision="12" remote="github" />
     <project path="packages/apps/Settings" name="LeddaZ/android_packages_apps_Settings" revision="12" remote="github" />
     <project path="packages/apps/CarrierConfig" name="LeddaZ/android_packages_apps_CarrierConfig" revision="12" remote="github" />
+    <project path="vendor/awaken" name="LeddaZ/android_vendor_awaken" revision="12" remote="github" />
       
     <!-- Repos from ProtonAOSP -->
     <project name="android_external_noto-fonts" path="external/noto-fonts" remote="proton" groups="proton" /> 
