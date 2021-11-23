@@ -3,9 +3,15 @@
 
     <!-- AwakenOS 2.x for miatoll -->
 
+    <!-- External remotes -->
+    <remote name="proton" fetch="https://github.com/ProtonAOSP" revision="sc" />
+
     <!-- Projects to remove -->
     <remove-project name="android_frameworks_base" />
     <remove-project name="android_packages_apps_Settings" />
+    <remove-project name="platform/external/noto-fonts" />
+    <remove-project name="platform/external/roboto-fonts" />
+    <remove-project name="platform/external/google-fonts/cutive-mono" />
     <remove-project name="platform/packages/apps/CarrierConfig" />
 
     <!-- Device trees -->
@@ -29,5 +35,10 @@
     <project path="frameworks/base" name="LeddaZ/android_frameworks_base" revision="12" remote="github" />
     <project path="packages/apps/Settings" name="LeddaZ/android_packages_apps_Settings" revision="12" remote="github" />
     <project path="packages/apps/CarrierConfig" name="LeddaZ/android_packages_apps_CarrierConfig" revision="12" remote="github" />
+      
+    <!-- Repos from ProtonAOSP -->
+    <project name="android_external_noto-fonts" path="external/noto-fonts" remote="proton" groups="proton" /> 
+    <project name="android_external_roboto-fonts" path="external/roboto-fonts" remote="proton" groups="proton" />
+    <project name="android_external_google-fonts_cutive-mono" path="external/google-fonts/cutive-mono" remote="proton" groups="proton" />
 
 </manifest>
