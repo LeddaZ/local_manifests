@@ -3,6 +3,11 @@
 
     <!-- AwakenOS 2.x for miatoll -->
 
+    <!-- Projects to remove -->
+    <remove-project name="android_frameworks_base" />
+    <remove-project name="android_packages_apps_Settings" />
+    <remove-project name="platform/packages/apps/CarrierConfig" />
+
     <!-- Device trees -->
     <project path="device/xiaomi/miatoll" name="LeddaZ/android_device_xiaomi_miatoll" revision="awaken" remote="github" />
     <project path="device/xiaomi/sm6250-common" name="LeddaZ/android_device_xiaomi_sm6250-common" revision="awaken" remote="github" />
@@ -19,5 +24,10 @@
     <project path="hardware/qcom-caf/sm8150/audio" name="ArrowOS/android_hardware_qcom_audio" revision="arrow-12.0-caf-sm8150" remote="github" />
     <project path="hardware/qcom-caf/sm8150/display" name="ArrowOS/android_hardware_qcom_display" revision="arrow-12.0-caf-sm8150" remote="github" />
     <project path="hardware/qcom-caf/sm8150/media" name="ArrowOS/android_hardware_qcom_media"  revision="arrow-12.0-caf-sm8150" remote="github" />
+
+    <!-- Repos from me -->
+    <project path="frameworks/base" name="LeddaZ/android_frameworks_base" revision="12" remote="github" />
+    <project path="packages/apps/Settings" name="LeddaZ/android_packages_apps_Settings" revision="12" remote="github" />
+    <project path="packages/apps/CarrierConfig" name="LeddaZ/android_packages_apps_CarrierConfig" revision="12" remote="github" />
 
 </manifest>
