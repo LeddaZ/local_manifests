@@ -20,7 +20,7 @@
     <project path="device/xiaomi/sm6250-common" name="LeddaZ/android_device_xiaomi_sm6250-common" revision="awaken" remote="github" />
 
     <!-- Kernel source -->
-    <project path="kernel/xiaomi/sm6250" name="LeddaZ/android_kernel_xiaomi_sm6250" revision="pizza" remote="github" />
+    <project path="kernel/xiaomi/sm6250" name="LeddaZ/kernel_xiaomi_sm6250" revision="eleven" remote="github" />
 
     <!-- Vendor blobs -->
     <project path="vendor/xiaomi/miatoll" name="LeddaZ/android_vendor_xiaomi_miatoll" revision="twelve" remote="github" />
