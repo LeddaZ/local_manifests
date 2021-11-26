@@ -6,23 +6,13 @@
     <!-- External remotes -->
     <remote name="arrow" fetch="https://github.com/ArrowOS" />
     <remote name="leddaz" fetch="https://github.com/LeddaZ" />
-    <remote name="proton" fetch="https://github.com/ProtonAOSP" revision="sc" />
-
-    <!-- Projects to remove -->
-    <remove-project name="android_frameworks_base" />
-    <remove-project name="android_packages_apps_Settings" />
-    <remove-project name="platform/external/noto-fonts" />
-    <remove-project name="platform/external/roboto-fonts" />
-    <remove-project name="platform/external/google-fonts/cutive-mono" />
-    <remove-project name="platform/packages/apps/CarrierConfig" />
-    <remove-project name="android_vendor_awaken" />
 
     <!-- Device trees -->
     <project path="device/xiaomi/miatoll" name="android_device_xiaomi_miatoll" revision="awaken" remote="leddaz" />
     <project path="device/xiaomi/sm6250-common" name="android_device_xiaomi_sm6250-common" revision="awaken" remote="leddaz" />
 
     <!-- Kernel source -->
-    <project path="kernel/xiaomi/sm6250" name="kernel_xiaomi_sm6250" revision="eleven" remote="leddaz" />
+    <project path="kernel/xiaomi/sm6250" name="sairam1411/kernel_xiaomi_sm6250" revision="eleven" remote="github" />
 
     <!-- Vendor blobs -->
     <project path="vendor/xiaomi/miatoll" name="android_vendor_xiaomi_miatoll" revision="twelve" remote="leddaz" />
@@ -33,17 +23,6 @@
     <project path="hardware/qcom-caf/sm8150/audio" name="android_hardware_qcom_audio" revision="arrow-12.0-caf-sm8150" remote="arrow" />
     <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" revision="arrow-12.0-caf-sm8150" remote="arrow" />
     <project path="hardware/qcom-caf/sm8150/media" name="android_hardware_qcom_media"  revision="arrow-12.0-caf-sm8150" remote="arrow" />
-
-    <!-- Repos from me -->
-    <project path="frameworks/base" name="android_frameworks_base" revision="12" remote="leddaz" />
-    <project path="packages/apps/Settings" name="android_packages_apps_Settings" revision="12" remote="leddaz" />
-    <project path="packages/apps/CarrierConfig" name="android_packages_apps_CarrierConfig" revision="12" remote="leddaz" />
-    <project path="vendor/awaken" name="android_vendor_awaken" revision="12" remote="leddaz" />
-      
-    <!-- Repos from ProtonAOSP -->
-    <project name="android_external_noto-fonts" path="external/noto-fonts" remote="proton" groups="proton" /> 
-    <project name="android_external_roboto-fonts" path="external/roboto-fonts" remote="proton" groups="proton" />
-    <project name="android_external_google-fonts_cutive-mono" path="external/google-fonts/cutive-mono" remote="proton" groups="proton" />
 
     <!-- Proton Clang -->
     <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1" />
