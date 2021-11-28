@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <!-- hentaiOS SaltyIceCream for miatoll -->
+
+    <!-- External remotes -->
+    <remote name="arrow" fetch="https://github.com/ArrowOS" />
+    <remote name="leddaz" fetch="https://github.com/LeddaZ" />
+
+    <!-- Projects to remove -->
+    <remove-project name="platform/hardware/interfaces" />
+    <remove-project name="platform/system/sepolicy" />
+
+    <!-- Device trees -->
+    <project path="device/xiaomi/miatoll" name="android_device_xiaomi_miatoll" revision="SaltyIceCream" remote="leddaz" />
+    <project path="device/xiaomi/sm6250-common" name="android_device_xiaomi_sm6250-common" revision="SaltyIceCream" remote="leddaz" />
+
+    <!-- Kernel source -->
+    <project path="kernel/xiaomi/sm6250" name="kernel_xiaomi_sm6250" revision="eleven" remote="leddaz" />
+
+    <!-- Vendor blobs -->
+    <project path="vendor/xiaomi/miatoll" name="android_vendor_xiaomi_miatoll" revision="twelve" remote="leddaz" />
+    <project path="vendor/xiaomi/sm6250-common" name="android_vendor_xiaomi_sm6250-common" revision="android-12" remote="leddaz" />
+
+    <!-- Repos from ArrowOS -->
+    <project path="hardware/xiaomi" name="ArrowOS-Devices/android_hardware_xiaomi" revision="arrow-12.0" remote="github" />
+    <project path="hardware/qcom-caf/sm8150/audio" name="android_hardware_qcom_audio" revision="arrow-12.0-caf-sm8150" remote="arrow" />
+    <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" revision="arrow-12.0-caf-sm8150" remote="arrow" />
+    <project path="hardware/qcom-caf/sm8150/media" name="android_hardware_qcom_media"  revision="arrow-12.0-caf-sm8150" remote="arrow" />
+
+    <!-- Proton Clang -->
+    <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1" />
+
+    <!-- Repos from me -->
+    <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="leddaz" revision="SaltyIceCream" />
+    <project path="system/sepolicy" name="platform_system_sepolicy" remote="leddaz" revision="SaltyIceCream" />
+
+</manifest>
