@@ -9,6 +9,7 @@
     <remote name="proton" fetch="https://github.com/ProtonAOSP" revision="sc" />
 
     <!-- Projects to remove -->
+    <remove-project name="android_build_soong" />
     <remove-project name="android_frameworks_base" />
     <remove-project name="android_packages_apps_Settings" />
     <remove-project name="platform/external/noto-fonts" />
@@ -33,6 +34,10 @@
     <project path="hardware/qcom-caf/sm8150/media" name="android_hardware_qcom_media"  revision="arrow-12.0-caf-sm8150" remote="arrow" />
 
     <!-- Repos from me -->
+    <project path="build/soong" name="LeddaZ/android_build_soong" revision="12" remote="github">
+      <linkfile src="root.bp" dest="Android.bp" />
+      <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+    </project>
     <project path="frameworks/base" name="android_frameworks_base" revision="12" remote="leddaz" />
     <project path="packages/apps/Settings" name="android_packages_apps_Settings" revision="12" remote="leddaz" />
     <project path="vendor/awaken" name="android_vendor_awaken" revision="12" remote="leddaz" />
