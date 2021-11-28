@@ -8,6 +8,9 @@
     <remote name="github" fetch="https://github.com" />
     <remote name="leddaz" fetch="https://github.com/LeddaZ" />
 
+    <!-- Projects to remove -->
+    <remove-project name="platform_hardware_qcom-caf_common" />
+
     <!-- Device trees -->
     <project path="device/xiaomi/miatoll" name="android_device_xiaomi_miatoll" revision="SaltyIceCream" remote="leddaz" />
     <project path="device/xiaomi/sm6250-common" name="android_device_xiaomi_sm6250-common" revision="SaltyIceCream" remote="leddaz" />
@@ -31,6 +34,30 @@
     <project path="vendor/qcom/opensource/healthd-ext" name="android_vendor_qcom_opensource_healthd-ext" remote="arrow" revision="arrow-12.0" />
     <project path="vendor/qcom/opensource/libfmjni" name="android_vendor_qcom_opensource_libfmjni" remote="arrow" revision="arrow-12.0" />
     <project path="vendor/qcom/opensource/usb" name="android_vendor_qcom_opensource_usb" remote="arrow" revision="arrow-12.0" />
+    <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" remote="arrow" revision="arrow-12.0" >
+        <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
+        <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" />
+        <linkfile src="os_pickup.mk" dest="hardware/qcom/sm8150/Android.mk" />
+        <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/msm8996-R/Android.bp" />
+        <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8996-R/Android.mk" />
+        <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8998/Android.bp" />
+        <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8998/Android.mk" />
+        <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm660/Android.bp" />
+        <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm660/Android.mk" />
+        <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm845/Android.bp" />
+        <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm845/Android.mk" />
+        <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8150/Android.bp" />
+        <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8150/Android.mk" />
+        <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8250/Android.bp" />
+        <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8250/Android.mk" />
+        <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8350/Android.bp" />
+        <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8350/Android.mk" />
+        <linkfile src="os_pickup.bp" dest="hardware/nxp/Android.bp" />
+        <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/pn5xx/Android.bp" />
+        <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/pn5xx/Android.mk" />
+        <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/sn100x/Android.bp" />
+        <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/sn100x/Android.mk" />
+    </project>
     <project path="hardware/qcom-caf/sm8150/audio" name="android_hardware_qcom_audio" revision="arrow-12.0-caf-sm8150" remote="arrow" />
     <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" revision="arrow-12.0-caf-sm8150" remote="arrow" />
     <project path="hardware/qcom-caf/sm8150/media" name="android_hardware_qcom_media"  revision="arrow-12.0-caf-sm8150" remote="arrow" />
