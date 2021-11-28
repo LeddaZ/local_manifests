@@ -5,6 +5,7 @@
 
     <!-- External remotes -->
     <remote name="arrow" fetch="https://github.com/ArrowOS" />
+    <remote name="github" fetch="https://github.com" />
     <remote name="leddaz" fetch="https://github.com/LeddaZ" />
 
     <!-- Device trees -->
