@@ -8,15 +8,13 @@
     <remote name="leddaz" fetch="https://github.com/LeddaZ" />
 
     <!-- Device trees -->
-    <project path="device/xiaomi/miatoll" name="android_device_xiaomi_miatoll" revision="awaken" remote="leddaz" />
-    <project path="device/xiaomi/sm6250-common" name="android_device_xiaomi_sm6250-common" revision="awaken" remote="leddaz" />
+    <project path="device/xiaomi/miatoll" name="android_device_xiaomi_miatoll" revision="12" remote="leddaz" />
 
     <!-- Kernel source -->
-    <project path="kernel/xiaomi/sm6250" name="kernel_xiaomi_sm6250" revision="eleven" remote="leddaz" />
+    <project path="kernel/xiaomi/miatoll" name="kernel_xiaomi_sm6250" revision="eleven" remote="leddaz" />
 
     <!-- Vendor blobs -->
-    <project path="vendor/xiaomi/miatoll" name="android_vendor_xiaomi_miatoll" revision="twelve" remote="leddaz" />
-    <project path="vendor/xiaomi/sm6250-common" name="android_vendor_xiaomi_sm6250-common" revision="android-12" remote="leddaz" />
+    <project path="vendor/xiaomi/miatoll" name="android_vendor_xiaomi_miatoll" revision="s" remote="leddaz" />
 
     <!-- Repos from ArrowOS -->
     <project path="hardware/xiaomi" name="ArrowOS-Devices/android_hardware_xiaomi" revision="arrow-12.0" remote="github" />
