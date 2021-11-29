@@ -12,9 +12,6 @@
     <remove-project name="android_build_soong" />
     <remove-project name="android_frameworks_base" />
     <remove-project name="android_packages_apps_Settings" />
-    <remove-project name="platform/external/noto-fonts" />
-    <remove-project name="platform/external/roboto-fonts" />
-    <remove-project name="platform/external/google-fonts/cutive-mono" />
     <remove-project name="android_vendor_awaken" />
 
     <!-- Device trees -->
@@ -40,11 +37,6 @@
     <project path="frameworks/base" name="android_frameworks_base" revision="12" remote="leddaz" />
     <project path="packages/apps/Settings" name="android_packages_apps_Settings" revision="12" remote="leddaz" />
     <project path="vendor/awaken" name="android_vendor_awaken" revision="12" remote="leddaz" />
-
-    <!-- Repos from ProtonAOSP -->
-    <project name="android_external_noto-fonts" path="external/noto-fonts" remote="proton" groups="proton" /> 
-    <project name="android_external_roboto-fonts" path="external/roboto-fonts" remote="proton" groups="proton" />
-    <project name="android_external_google-fonts_cutive-mono" path="external/google-fonts/cutive-mono" remote="proton" groups="proton" />
 
     <!-- Proton Clang -->
     <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1" />
