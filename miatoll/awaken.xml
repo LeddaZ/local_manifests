@@ -10,7 +10,6 @@
     <!-- Projects to remove -->
     <remove-project name="android_build_soong" />
     <remove-project name="android_frameworks_base" />
-    <remove-project name="android_vendor_awaken" />
 
     <!-- Device trees -->
     <project path="device/xiaomi/miatoll" name="android_device_xiaomi_miatoll" revision="awaken" remote="leddaz" />
@@ -35,7 +34,6 @@
       <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     </project>
     <project path="frameworks/base" name="android_frameworks_base" revision="12" remote="leddaz" />
-    <project path="vendor/awaken" name="android_vendor_awaken" revision="12" remote="leddaz" />
 
     <!-- Proton Clang -->
     <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1" />
