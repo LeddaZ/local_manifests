@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-    <!-- AwakenOS 2.x for miatoll -->
+    <!-- AwakenOS 2.x manifest for miatoll -->
 
     <!-- External remotes -->
     <remote name="arrow" fetch="https://github.com/ArrowOS" />
@@ -12,15 +12,13 @@
     <remove-project name="android_frameworks_base" />
 
     <!-- Device trees -->
-    <project path="device/xiaomi/miatoll" name="android_device_xiaomi_miatoll" revision="awaken" remote="leddaz" />
-    <project path="device/xiaomi/sm6250-common" name="android_device_xiaomi_sm6250-common" revision="awaken" remote="leddaz" />
+    <project path="device/xiaomi/miatoll" name="device_xiaomi_miatoll" revision="12" remote="leddaz" />
 
     <!-- Kernel source -->
-    <project path="kernel/xiaomi/sm6250" name="kernel_xiaomi_sm6250" revision="twelve-kcal" remote="leddaz" />
+    <project path="kernel/xiaomi/sm6250" name="BladeRunner-A2C/msm-4.14-miatoll" revision="sapphire" remote="github" />
 
     <!-- Vendor blobs -->
-    <project path="vendor/xiaomi/miatoll" name="android_vendor_xiaomi_miatoll" revision="twelve" remote="leddaz" />
-    <project path="vendor/xiaomi/sm6250-common" name="android_vendor_xiaomi_sm6250-common" revision="android-12" remote="leddaz" />
+    <project path="vendor/xiaomi/miatoll" name="vendor_xiaomi_miatoll" revision="12" remote="leddaz" />
 
     <!-- Repos from ArrowOS -->
     <project path="hardware/xiaomi" name="ArrowOS-Devices/android_hardware_xiaomi" revision="arrow-12.0" remote="github" />
