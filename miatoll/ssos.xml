@@ -11,16 +11,13 @@
     <project path="device/xiaomi/sm6250-common" name="android_device_xiaomi_sm6250-common" revision="android_11" remote="leddaz" />
 
     <!-- Kernel source -->
-    <project path="kernel/xiaomi/sm6250" name="kernel_xiaomi_sm6250" revision="twelve-kcal" remote="leddaz" />
+    <project path="kernel/xiaomi/sm6250" name="android_kernel_xiaomi_sm6250" revision="pizza" remote="leddaz" />
 
     <!-- Vendor blobs -->
     <project path="vendor/xiaomi/miatoll" name="android_vendor_xiaomi_miatoll" revision="twelve" remote="leddaz" />
-    <project path="vendor/xiaomi/sm6250-common" name="android_vendor_xiaomi_sm6250-common" revision="android-12" remote="leddaz" />
+    <project path="vendor/xiaomi/sm6250-common" name="android_vendor_xiaomi_sm6250-common" revision="android_11" remote="leddaz" />
 
     <!-- Repos from LineageOS -->
     <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" revision="lineage-18.1" remote="github" />
-
-    <!-- Proton Clang -->
-    <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1" />
 
 </manifest>
