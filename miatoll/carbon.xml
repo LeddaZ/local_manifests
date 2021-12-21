@@ -4,6 +4,7 @@
     <!-- CarbonROM 9.x manifest for miatoll -->
 
     <!-- External remotes -->
+    <remote name="github" fetch="https://github.com" />
     <remote name="leddaz" fetch="https://github.com/LeddaZ" />
 
     <!-- Projects to remove -->
