@@ -17,7 +17,7 @@
     <project path="kernel/xiaomi/sm6250" name="BladeRunner-A2C/msm-4.14-miatoll" revision="sapphire" remote="github" />
 
     <!-- Vendor blobs -->
-    <project path="vendor/xiaomi/miatoll" name="vendor_xiaomi_miatoll" revision="cr-9.0" remote="leddaz" />
+    <project path="vendor/xiaomi/miatoll" name="vendor_xiaomi_miatoll" revision="12" remote="leddaz" />
 
     <!-- Repos from LineageOS -->
     <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" revision="lineage-18.1" remote="github" />
