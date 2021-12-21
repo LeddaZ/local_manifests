@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <!-- CarbonROM 9.x manifest for miatoll -->
+
+    <!-- External remotes -->
+    <remote name="leddaz" fetch="https://github.com/LeddaZ" />
+
+    <!-- Projects to remove -->
+    <remove-project name="android_build_soong" />
+    <remove-project name="android_frameworks_base" />
+
+    <!-- Device trees -->
+    <project path="device/xiaomi/miatoll" name="device_xiaomi_miatoll" revision="cr-9.0" remote="leddaz" />
+
+    <!-- Kernel source -->
+    <project path="kernel/xiaomi/sm6250" name="BladeRunner-A2C/msm-4.14-miatoll" revision="sapphire" remote="github" />
+
+    <!-- Vendor blobs -->
+    <project path="vendor/xiaomi/miatoll" name="vendor_xiaomi_miatoll" revision="cr-9.0" remote="leddaz" />
+
+    <!-- Repos from LineageOS -->
+    <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" revision="lineage-18.1" remote="github" />
+
+    <!-- Repos from me -->
+    <project path="build/soong" name="carbon_build_soong" revision="cr-9.0" remote="leddaz">
+      <linkfile src="root.bp" dest="Android.bp" />
+      <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+    </project>
+    <project path="frameworks/base" name="carbon_frameworks_base" revision="cr-9.0" remote="leddaz" />
+
+    <!-- Proton Clang -->
+    <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1" />
+
+</manifest>
