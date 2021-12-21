@@ -10,12 +10,13 @@
     <!-- Projects to remove -->
     <remove-project name="android_build_soong" />
     <remove-project name="android_frameworks_base" />
+    <remove-project name="android_device_qcom_sepolicy_vndr" />
 
     <!-- Device trees -->
     <project path="device/xiaomi/miatoll" name="device_xiaomi_miatoll" revision="12" remote="leddaz" />
 
     <!-- Kernel source -->
-    <project path="kernel/xiaomi/sm6250" name="BladeRunner-A2C/msm-4.14-miatoll" revision="sapphire" remote="github" />
+    <project path="kernel/xiaomi/miatoll" name="BladeRunner-A2C/msm-4.14-miatoll" revision="sapphire" remote="github" />
 
     <!-- Vendor blobs -->
     <project path="vendor/xiaomi/miatoll" name="vendor_xiaomi_miatoll" revision="12" remote="leddaz" />
@@ -31,6 +32,7 @@
       <linkfile src="root.bp" dest="Android.bp" />
       <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     </project>
+    <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="leddaz" revision="12" />
     <project path="frameworks/base" name="android_frameworks_base" revision="12" remote="leddaz" />
 
     <!-- Proton Clang -->
