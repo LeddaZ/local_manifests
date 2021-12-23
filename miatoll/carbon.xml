@@ -10,6 +10,7 @@
     <!-- Projects to remove -->
     <remove-project name="CarbonROM/android_build_soong" />
     <remove-project name="CarbonROM/android_frameworks_base" />
+    <remove-project name="CarbonROM/android_system_core" />
 
     <!-- Device trees -->
     <project path="device/xiaomi/miatoll" name="device_xiaomi_miatoll" revision="cr-9.0" remote="leddaz" />
@@ -31,6 +32,7 @@
       <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     </project>
     <project path="frameworks/base" name="carbon_frameworks_base" revision="cr-9.0" remote="leddaz" />
+    <project path="system/core" name="carbon_system_core" revision="cr-9.0" remote="leddaz" />
 
     <!-- Proton Clang -->
     <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1" />
