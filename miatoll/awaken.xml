@@ -13,7 +13,7 @@
     <remove-project name="android_device_qcom_sepolicy_vndr" />
 
     <!-- Device trees -->
-    <project path="device/xiaomi/miatoll" name="device_xiaomi_miatoll" revision="12" remote="leddaz" />
+    <project path="device/xiaomi/miatoll" name="awaken_device_xiaomi_miatoll" revision="12" remote="leddaz" />
 
     <!-- Kernel source -->
     <project path="kernel/xiaomi/miatoll" name="BladeRunner-A2C/msm-4.14-miatoll" revision="sapphire" remote="github" />
