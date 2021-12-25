@@ -4,16 +4,16 @@
     <!-- PixelExperience 11 manifest for a5y17lte and a7y17lte -->
 
     <!-- External remotes -->
-    <remote name="leddaz" fetch="https://github.com/LeddaZ" />
+    <remote name="leddaz" fetch="https://github.com/LeddaZ" revision="eleven" />
     <remote name="lineage" fetch="https://github.com/LineageOS" revision="lineage-18.1" />
 
     <!-- Projects to remove -->
     <remove-project name="build_soong" />
 
     <!-- Device trees -->
-    <project path="device/samsung/a5y17lte" name="android_device_samsung_a5y17lte" remote="leddaz" revision="eleven" />
-    <project path="device/samsung/a7y17lte" name="android_device_samsung_a7y17lte" remote="leddaz" revision="eleven" />
-    <project path="device/samsung/universal7880-common" name="android_device_samsung_universal7880-common" remote="leddaz" revision="eleven" />
+    <project path="device/samsung/a5y17lte" name="android_device_samsung_a5y17lte" remote="leddaz" />
+    <project path="device/samsung/a7y17lte" name="android_device_samsung_a7y17lte" remote="leddaz" />
+    <project path="device/samsung/universal7880-common" name="android_device_samsung_universal7880-common" remote="leddaz" />
 
     <!-- Kernel source -->
     <project path="kernel/samsung/universal7880" name="android_kernel_samsung_universal7880" remote="lineage" />
