@@ -3,23 +3,36 @@
 
     <!-- PixelExperience 11 manifest for a5y17lte and a7y17lte -->
 
+    <!-- External remotes -->
+    <remote name="leddaz" fetch="https://github.com/LeddaZ" />
+    <remote name="lineage" fetch="https://github.com/LineageOS" revision="lineage-18.1" />
+
+    <!-- Projects to remove -->
+    <remove-project name="build_soong" />
+
     <!-- Device trees -->
-    <project path="device/samsung/a5y17lte" name="LeddaZ/android_device_samsung_a5y17lte" remote="github" revision="eleven" />
-    <project path="device/samsung/a7y17lte" name="LeddaZ/android_device_samsung_a7y17lte" remote="github" revision="eleven" />
-    <project path="device/samsung/universal7880-common" name="LeddaZ/android_device_samsung_universal7880-common" remote="github" revision="eleven" />
+    <project path="device/samsung/a5y17lte" name="android_device_samsung_a5y17lte" remote="leddaz" revision="eleven" />
+    <project path="device/samsung/a7y17lte" name="android_device_samsung_a7y17lte" remote="leddaz" revision="eleven" />
+    <project path="device/samsung/universal7880-common" name="android_device_samsung_universal7880-common" remote="leddaz" revision="eleven" />
 
     <!-- Kernel source -->
-    <project path="kernel/samsung/universal7880" name="LineageOS/android_kernel_samsung_universal7880" remote="github" revision="lineage-18.1" />
+    <project path="kernel/samsung/universal7880" name="android_kernel_samsung_universal7880" remote="lineage" />
 
     <!-- Vendor blobs -->
     <project path="vendor/samsung" name="TheMuppets/proprietary_vendor_samsung" remote="github" revision="lineage-18.1" />
 
     <!-- Hardware repos -->
-    <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="github" revision="lineage-18.1" />
-    <project path="hardware/samsung/nfc" name="LineageOS/android_hardware_samsung_nfc" remote="github" revision="lineage-18.1" />
-    <project path="hardware/samsung_slsi/exynos" name="LineageOS/android_hardware_samsung_slsi_exynos" remote="github" revision="lineage-18.1" />
-    <project path="hardware/samsung_slsi/exynos5" name="LineageOS/android_hardware_samsung_slsi_exynos5" remote="github" revision="lineage-18.1" />
-    <project path="hardware/samsung_slsi/exynos7880" name="LineageOS/android_hardware_samsung_slsi_exynos7880" remote="github" revision="lineage-18.1" />
-    <project path="hardware/samsung_slsi/openmax" name="LineageOS/android_hardware_samsung_slsi_openmax" remote="github" revision="lineage-18.1" />
+    <project path="hardware/samsung" name="android_hardware_samsung" remote="lineage" />
+    <project path="hardware/samsung/nfc" name="android_hardware_samsung_nfc" remote="lineage" />
+    <project path="hardware/samsung_slsi/exynos" name="android_hardware_samsung_slsi_exynos" remote="lineage" />
+    <project path="hardware/samsung_slsi/exynos5" name="android_hardware_samsung_slsi_exynos5" remote="lineage" />
+    <project path="hardware/samsung_slsi/exynos7880" name="android_hardware_samsung_slsi_exynos7880" remote="lineage" />
+    <project path="hardware/samsung_slsi/openmax" name="android_hardware_samsung_slsi_openmax" remote="lineage" />
+
+    <!-- Repos from me -->
+    <project path="build/soong" name="build_soong" remote="leddaz" >
+        <linkfile src="root.bp" dest="Android.bp" />
+        <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+    </project>
 
 </manifest>
