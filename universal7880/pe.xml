@@ -35,4 +35,7 @@
         <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     </project>
 
+    <!-- Repos from LineageOS -->
+    <project path="lineage-sdk" name="android_lineage-sdk" remote="lineage" />
+
 </manifest>
