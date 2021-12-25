@@ -9,6 +9,7 @@
 
     <!-- Projects to remove -->
     <remove-project name="build_soong" />
+    <remove-project name="hardware_custom_interfaces" />
 
     <!-- Device trees -->
     <project path="device/samsung/a5y17lte" name="android_device_samsung_a5y17lte" remote="leddaz" />
@@ -22,6 +23,7 @@
     <project path="vendor/samsung" name="TheMuppets/proprietary_vendor_samsung" remote="github" revision="lineage-18.1" />
 
     <!-- Hardware repos -->
+    <project path="hardware/custom/interfaces" name="hardware_custom_interfaces" remote="leddaz" />
     <project path="hardware/samsung" name="android_hardware_samsung" remote="lineage" />
     <project path="hardware/samsung/nfc" name="android_hardware_samsung_nfc" remote="lineage" />
     <project path="hardware/samsung_slsi/exynos" name="android_hardware_samsung_slsi_exynos" remote="lineage" />
