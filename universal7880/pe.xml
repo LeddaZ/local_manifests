@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-    <!-- PixelExperience 11 manifest for a5y17lte -->
+    <!-- PixelExperience 11 manifest for a5y17lte and a7y17lte -->
+
+    <!-- Projects to remove -->
+    <remove-project name="hardware_custom_interfaces" />
 
     <!-- Device trees -->
     <project path="device/samsung/a5y17lte" name="LeddaZ/android_device_samsung_a5y17lte" remote="github" revision="eleven" />
+    <project path="device/samsung/a7y17lte" name="LeddaZ/android_device_samsung_a7y17lte" remote="github" revision="eleven" />
     <project path="device/samsung/universal7880-common" name="LeddaZ/android_device_samsung_universal7880-common" remote="github" revision="eleven" />
 
     <!-- Kernel source -->
@@ -20,6 +24,6 @@
     <project path="hardware/samsung_slsi/exynos5" name="LineageOS/android_hardware_samsung_slsi_exynos5" remote="github" revision="lineage-18.1" />
     <project path="hardware/samsung_slsi/exynos7880" name="LineageOS/android_hardware_samsung_slsi_exynos7880" remote="github" revision="lineage-18.1" />
     <project path="hardware/samsung_slsi/openmax" name="LineageOS/android_hardware_samsung_slsi_openmax" remote="github" revision="lineage-18.1" />
-    <project path="hardware/lineage/interfaces" name="LineageOS/android_hardware_lineage_interfaces" remote="github" revision="lineage-18.1" />
+    <project path="hardware/custom/interfaces" name="LeddaZ/hardware_custom_interfaces" remote="github" revision="eleven" />
 
 </manifest>
