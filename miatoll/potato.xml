@@ -18,14 +18,17 @@
     <!-- Vendor blobs -->
     <project path="vendor/xiaomi/miatoll" name="vendor_xiaomi_miatoll" revision="12" remote="leddaz" />
 
-    <!-- Repos from xiaomi-sm8250-devs -->
+    <!-- Hardware repos -->
     <project path="hardware/xiaomi" name="xiaomi-sm8250-devs/android_hardware_xiaomi" revision="lineage-19.0" remote="github" />
 
-    <!-- Repos from me -->
+    <!-- My forks -->
     <project path="build/soong" name="potato_build_soong" revision="frico-release" remote="leddaz">
       <linkfile src="root.bp" dest="Android.bp" />
       <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     </project>
+
+    <!-- GMS -->
+    <project path="vendor/google/gms" name="vendor_google_gms" remote="devices-lab" />
 
     <!-- Proton Clang -->
     <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1" />
