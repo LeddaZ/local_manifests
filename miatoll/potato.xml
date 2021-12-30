@@ -19,6 +19,7 @@
     <project path="vendor/xiaomi/miatoll" name="vendor_xiaomi_miatoll" revision="12" remote="leddaz" />
 
     <!-- Hardware repos -->
+    <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" revision="lineage-19.0" remote="lineage" />
     <project path="hardware/xiaomi" name="xiaomi-sm8250-devs/android_hardware_xiaomi" revision="lineage-19.0" remote="github" />
 
     <!-- My forks -->
