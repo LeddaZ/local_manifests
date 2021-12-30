@@ -7,7 +7,7 @@
     <remote name="leddaz" fetch="https://github.com/LeddaZ" />
 
     <!-- Projects to remove -->
-    <remove-project name="android_build_soong" />
+    <remove-project name="build_soong" />
 
     <!-- Device tree -->
     <project path="device/xiaomi/miatoll" name="android_device_xiaomi_miatoll" revision="frico-release" remote="leddaz" />
