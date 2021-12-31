@@ -8,6 +8,7 @@
 
     <!-- Projects to remove -->
     <remove-project name="build_soong" />
+    <remove-project name="device_qcom_sepolicy_vndr"
 
     <!-- Device tree -->
     <project path="device/xiaomi/miatoll" name="android_device_xiaomi_miatoll" revision="frico-release" remote="leddaz" />
@@ -27,6 +28,7 @@
       <linkfile src="root.bp" dest="Android.bp" />
       <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     </project>
+    <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" revision="frico-release" remote="leddaz" />
 
     <!-- GMS -->
     <project path="vendor/google/gms" name="vendor_google_gms" remote="devices-lab" />
