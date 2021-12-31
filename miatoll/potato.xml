@@ -31,7 +31,4 @@
     <!-- GMS -->
     <project path="vendor/google/gms" name="vendor_google_gms" remote="devices-lab" />
 
-    <!-- Proton Clang -->
-    <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1" />
-
 </manifest>
