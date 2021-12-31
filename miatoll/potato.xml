@@ -8,6 +8,7 @@
 
     <!-- Projects to remove -->
     <remove-project name="build_soong" />
+    <remove-project name="device_potato_sepolicy" />
     <remove-project name="device_qcom_sepolicy_vndr" />
 
     <!-- Device tree -->
@@ -28,6 +29,7 @@
       <linkfile src="root.bp" dest="Android.bp" />
       <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     </project>
+    <project path="device/potato/sepolicy" name="device_potato_sepolicy" revision="frico-release" remote="leddaz" />
     <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" revision="frico-release" remote="leddaz" />
 
     <!-- GMS -->
