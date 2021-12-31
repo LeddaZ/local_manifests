@@ -8,7 +8,7 @@
 
     <!-- Projects to remove -->
     <remove-project name="build_soong" />
-    <remove-project name="device_qcom_sepolicy_vndr"
+    <remove-project name="device_qcom_sepolicy_vndr" />
 
     <!-- Device tree -->
     <project path="device/xiaomi/miatoll" name="android_device_xiaomi_miatoll" revision="frico-release" remote="leddaz" />
