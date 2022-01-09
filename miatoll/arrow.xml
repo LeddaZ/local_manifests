@@ -7,7 +7,8 @@
     <remote name="leddaz" fetch="https://github.com/LeddaZ" />
 
     <!-- Projects to remove -->
-    <remove-project name="build_soong" />
+    <remove-project name="android_build_soong" />
+    <remove-project name="android_frameworks_base" />
 
     <!-- Device tree -->
     <project path="device/xiaomi/miatoll" name="device_xiaomi_miatoll" revision="arrow-12.0" remote="leddaz" />
@@ -26,5 +27,6 @@
       <linkfile src="root.bp" dest="Android.bp" />
       <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     </project>
+    <project path="frameworks/base" name="arrow_frameworks_base" revision="arrow-12.0" remote="leddaz" />
 
 </manifest>
