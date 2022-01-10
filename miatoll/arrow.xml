@@ -6,12 +6,8 @@
     <!-- External remotes -->
     <remote name="leddaz" fetch="https://github.com/LeddaZ" />
 
-    <!-- Projects to remove -->
-    <remove-project name="android_build_soong" />
-    <remove-project name="android_frameworks_base" />
-
     <!-- Device tree -->
-    <project path="device/xiaomi/miatoll" name="device_xiaomi_miatoll" revision="arrow-12.0" remote="leddaz" />
+    <project path="device/xiaomi/miatoll" name="device_xiaomi_miatoll" remote="leddaz" />
 
     <!-- Kernel source -->
     <project path="kernel/xiaomi/miatoll" name="BladeRunner-A2C/msm-4.14-miatoll" revision="sapphire" remote="github" />
@@ -21,12 +17,5 @@
 
     <!-- Hardware repos -->
     <project path="hardware/xiaomi" name="ArrowOS-Devices/android_hardware_xiaomi" revision="arrow-12.0" remote="github" />
-
-    <!-- My forks -->
-    <project path="build/soong" name="arrow_build_soong" revision="arrow-12.0" remote="leddaz">
-      <linkfile src="root.bp" dest="Android.bp" />
-      <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
-    </project>
-    <project path="frameworks/base" name="arrow_frameworks_base" revision="arrow-12.0" remote="leddaz" />
 
 </manifest>
