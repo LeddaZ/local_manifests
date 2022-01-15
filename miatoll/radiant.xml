@@ -18,9 +18,6 @@
     <!-- Vendor blobs -->
     <project path="vendor/xiaomi/miatoll" name="vendor_xiaomi_miatoll" revision="12" remote="leddaz" />
 
-    <!-- Hardware repos -->
-    <project path="hardware/xiaomi" name="xiaomi-sm8250-devs/android_hardware_xiaomi" revision="lineage-19.0" remote="github" />
-
     <!-- Repos from me -->
     <project path="build/soong" name="radiant_build_soong" revision="twelve" remote="leddaz">
       <linkfile src="root.bp" dest="Android.bp" />
