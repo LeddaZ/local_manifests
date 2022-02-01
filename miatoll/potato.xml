@@ -10,13 +10,13 @@
     <remove-project name="build_soong" />
 
     <!-- Device tree -->
-    <project path="device/xiaomi/miatoll" name="device_xiaomi_miatoll" revision="frico-release" remote="leddaz" />
+    <project path="device/xiaomi/miatoll" name="device_xiaomi_miatoll" remote="devices" />
 
     <!-- Kernel source -->
-    <project path="kernel/xiaomi/miatoll" name="LeddaZ/msm-4.14-miatoll" revision="sapphire" remote="github" />
+    <project path="kernel/xiaomi/miatoll" name="LeddaZ/msm-4.14-miatoll" remote="devices" />
 
     <!-- Vendor blobs -->
-    <project path="vendor/xiaomi/miatoll" name="vendor_xiaomi_miatoll" revision="12" remote="leddaz" />
+    <project path="vendor/xiaomi/miatoll" name="vendor_xiaomi_miatoll" remote="devices" />
 
     <!-- Hardware repos -->
     <project path="hardware/xiaomi" name="PotatoDevices/hardware_xiaomi" revision="frico-release" remote="github" />
