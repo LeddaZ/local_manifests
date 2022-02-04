@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <!-- StatiX 5.x manifest for miatoll -->
+
+    <!-- External remotes -->
+    <remote name="leddaz" fetch="https://github.com/LeddaZ" />
+
+    <!-- Projects to remove -->
+    <remove-project name="android_build_soong" />
+
+    <!-- Device trees -->
+    <project path="device/xiaomi/miatoll" name="android_device_xiaomi_miatoll" revision="statix" remote="leddaz" />
+
+    <!-- Kernel source -->
+    <project path="kernel/xiaomi/miatoll" name="PotatoDevices/kernel_xiaomi_miatoll" revision="frico-release" remote="github" />
+
+    <!-- Vendor blobs -->
+    <project path="vendor/xiaomi/miatoll" name="PotatoDevices/vendor_xiaomi_miatoll" revision="frico-release" remote="github" />
+
+    <!-- Repos from me -->
+    <project path="build/soong" name="statix_build_soong" revision="sc" remote="leddaz">
+      <linkfile src="root.bp" dest="Android.bp" />
+      <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+    </project>
+
+</manifest>
