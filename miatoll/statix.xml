@@ -19,6 +19,9 @@
     <!-- Vendor blobs -->
     <project path="vendor/xiaomi/miatoll" name="PotatoDevices/vendor_xiaomi_miatoll" revision="frico-release" remote="github" />
 
+    <!-- Hardware repos -->
+    <project path="hardware/xiaomi" name="PotatoDevices/hardware_xiaomi" revision="frico-release" remote="github" />
+
     <!-- Repos from me -->
     <project path="build/soong" name="statix_build_soong" revision="sc" remote="leddaz">
       <linkfile src="root.bp" dest="Android.bp" />
