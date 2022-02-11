@@ -17,7 +17,7 @@
     <project path="kernel/xiaomi/miatoll" name="BladeRunner-A2C/msm-4.14-miatoll" revision="sapphire" remote="github" />
 
     <!-- Vendor blobs -->
-    <project path="vendor/xiaomi/miatoll" name="android_vendor_xiaomi_miatoll" revision="12" remote="leddaz" />
+    <project path="vendor/xiaomi/miatoll" name="BladeRunner-A2C/vendor_xiaomi_miatoll" revision="sc" remote="github" />
 
     <!-- Repos from PixelExperience -->
     <project path="device/qcom-LA.UM.10.3.r1-xxxxx-sdm845.0/sepolicy" name="PixelExperience/device_qcom_sepolicy" revision="twelve-LA.UM.10.3.r1-xxxxx-sdm845.0" remote="github" />
