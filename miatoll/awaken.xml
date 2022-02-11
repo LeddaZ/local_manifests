@@ -22,7 +22,7 @@
     <!-- Repos from PixelExperience -->
     <project path="device/qcom-LA.UM.10.3.r1-xxxxx-sdm845.0/sepolicy" name="PixelExperience/device_qcom_sepolicy" revision="twelve-LA.UM.10.3.r1-xxxxx-sdm845.0" remote="github" />
     <project path="device/qcom-LA.UM.10.3.r1-xxxxx-sdm845.0/sepolicy_vndr" name="PixelExperience/device_qcom_sepolicy_vndr" revision="twelve-LA.UM.10.3.r1-xxxxx-sdm845.0" remote="github" />
-    <project path="hardware/xiaomi" name="PixelExperience-Devices/hardware_xiaomi" revision="twelve" remote="github" />
+    <project path="hardware/xiaomi" name="PixelExperience/hardware_xiaomi" revision="twelve" remote="github" />
 
     <!-- Repos from me -->
     <project path="build/soong" name="LeddaZ/android_build_soong" revision="12" remote="github">
