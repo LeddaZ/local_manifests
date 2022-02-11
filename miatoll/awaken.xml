@@ -4,37 +4,31 @@
     <!-- AwakenOS 2.x manifest for miatoll -->
 
     <!-- External remotes -->
-    <remote name="arrow" fetch="https://github.com/ArrowOS" />
     <remote name="leddaz" fetch="https://github.com/LeddaZ" />
 
     <!-- Projects to remove -->
     <remove-project name="android_build_soong" />
     <remove-project name="android_frameworks_base" />
-    <remove-project name="android_device_qcom_sepolicy_vndr" />
 
     <!-- Device trees -->
-    <project path="device/xiaomi/miatoll" name="awaken_device_xiaomi_miatoll" revision="12" remote="leddaz" />
+    <project path="device/xiaomi/miatoll" name="android_device_xiaomi_miatoll" revision="12" remote="leddaz" />
 
     <!-- Kernel source -->
     <project path="kernel/xiaomi/miatoll" name="BladeRunner-A2C/msm-4.14-miatoll" revision="sapphire" remote="github" />
 
     <!-- Vendor blobs -->
-    <project path="vendor/xiaomi/miatoll" name="vendor_xiaomi_miatoll" revision="12" remote="leddaz" />
+    <project path="vendor/xiaomi/miatoll" name="android_vendor_xiaomi_miatoll" revision="12" remote="leddaz" />
 
-    <!-- Repos from ArrowOS -->
-    <project path="hardware/qcom-caf/sm8150/audio" name="android_hardware_qcom_audio" revision="arrow-12.0-caf-sm8150" remote="arrow" />
-    <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" revision="arrow-12.0-caf-sm8150" remote="arrow" />
-    <project path="hardware/qcom-caf/sm8150/media" name="android_hardware_qcom_media"  revision="arrow-12.0-caf-sm8150" remote="arrow" />
-
-    <!-- Repos from xiaomi-sm8250-devs -->
-    <project path="hardware/xiaomi" name="xiaomi-sm8250-devs/android_hardware_xiaomi" revision="lineage-19.0" remote="github" />
+    <!-- Repos from PixelExperience -->
+    <project path="device/qcom-LA.UM.10.3.r1-xxxxx-sdm845.0/sepolicy" name="PixelExperience/device_qcom_sepolicy" revision="twelve-LA.UM.10.3.r1-xxxxx-sdm845.0" remote="github" />
+    <project path="device/qcom-LA.UM.10.3.r1-xxxxx-sdm845.0/sepolicy_vndr" name="PixelExperience/device_qcom_sepolicy_vndr" revision="twelve-LA.UM.10.3.r1-xxxxx-sdm845.0" remote="github" />
+    <project path="hardware/xiaomi" name="PixelExperience-Devices/hardware_xiaomi" revision="twelve" remote="github" />
 
     <!-- Repos from me -->
     <project path="build/soong" name="LeddaZ/android_build_soong" revision="12" remote="github">
       <linkfile src="root.bp" dest="Android.bp" />
       <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     </project>
-    <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="leddaz" revision="12" />
     <project path="frameworks/base" name="android_frameworks_base" revision="12" remote="leddaz" />
 
     <!-- Proton Clang -->
