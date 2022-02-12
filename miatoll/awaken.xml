@@ -11,18 +11,16 @@
     <remove-project name="android_frameworks_base" />
 
     <!-- Device trees -->
-    <project path="device/xiaomi/miatoll" name="android_device_xiaomi_miatoll" revision="12" remote="leddaz" />
+    <project path="device/xiaomi/miatoll" name="device_xiaomi_miatoll" revision="12" remote="leddaz" />
 
     <!-- Kernel source -->
-    <project path="kernel/xiaomi/miatoll" name="BladeRunner-A2C/msm-4.14-miatoll" revision="sapphire" remote="github" />
+    <project path="kernel/xiaomi/miatoll" name="PotatoDevices/kernel_xiaomi_miatoll" revision="frico-release" remote="github" />
 
     <!-- Vendor blobs -->
-    <project path="vendor/xiaomi/miatoll" name="BladeRunner-A2C/vendor_xiaomi_miatoll" revision="sc" remote="github" />
+    <project path="vendor/xiaomi/miatoll" name="PotatoDevices/vendor_xiaomi_miatoll" revision="frico-release" remote="github" />
 
-    <!-- Repos from PixelExperience -->
-    <project path="device/qcom-LA.UM.10.3.r1-xxxxx-sdm845.0/sepolicy" name="PixelExperience/device_qcom_sepolicy" revision="twelve-LA.UM.10.3.r1-xxxxx-sdm845.0" remote="github" />
-    <project path="device/qcom-LA.UM.10.3.r1-xxxxx-sdm845.0/sepolicy_vndr" name="PixelExperience/device_qcom_sepolicy_vndr" revision="twelve-LA.UM.10.3.r1-xxxxx-sdm845.0" remote="github" />
-    <project path="hardware/xiaomi" name="PixelExperience/hardware_xiaomi" revision="twelve" remote="github" />
+    <!-- Repos from POSP -->
+    <project path="hardware/xiaomi" name="PotatoDevices/hardware_xiaomi" revision="frico-release" remote="github" />
 
     <!-- Repos from me -->
     <project path="build/soong" name="LeddaZ/android_build_soong" revision="12" remote="github">
@@ -30,8 +28,5 @@
       <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     </project>
     <project path="frameworks/base" name="android_frameworks_base" revision="12" remote="leddaz" />
-
-    <!-- Proton Clang -->
-    <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1" />
 
 </manifest>
