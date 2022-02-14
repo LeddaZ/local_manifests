@@ -8,6 +8,7 @@
 
     <!-- Projects to remove -->
     <remove-project name="build_soong" />
+    <remove-project name="frameworks_base" />
 
     <!-- Device trees -->
     <project path="device/xiaomi/miatoll" name="device_xiaomi_miatoll" revision="radiant" remote="leddaz" />
@@ -23,5 +24,6 @@
       <linkfile src="root.bp" dest="Android.bp" />
       <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     </project>
+    <project path="frameworks/base" name="radiant_frameworks_base" revision="twelve" remote="leddaz" />
 
 </manifest>
