@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <!-- ProjectStreak 12 manifest for miatoll -->
+
+    <!-- External remotes -->
+    <remote name="leddaz" fetch="https://github.com/LeddaZ" />
+
+    <!-- Projects to remove -->
+    <remove-project name="build_soong" />
+    <remove-project name="platform_packages_apps_Settings" />
+
+    <!-- Device trees -->
+    <project path="device/xiaomi/miatoll" name="device_xiaomi_miatoll" revision="streak" remote="leddaz" />
+
+    <!-- Kernel source -->
+    <project path="kernel/xiaomi/miatoll" name="PotatoDevices/kernel_xiaomi_miatoll" revision="frico-release" remote="github" />
+
+    <!-- Vendor blobs -->
+    <project path="vendor/xiaomi/miatoll" name="PotatoDevices/vendor_xiaomi_miatoll" revision="frico-release" remote="github" />
+
+    <!-- Hardware repos -->
+    <project path="hardware/xiaomi" name="PotatoDevices/hardware_xiaomi" revision="frico-release" remote="github" />
+
+    <!-- Repos from me -->
+    <project path="build/soong" name="radiant_build_soong" revision="twelve" remote="leddaz">
+      <linkfile src="root.bp" dest="Android.bp" />
+      <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+    </project>
+    <project path="packages/apps/Settings" name="streak_packages_apps_Settings" revision="twelve" remote="leddaz" />
+
+</manifest>
