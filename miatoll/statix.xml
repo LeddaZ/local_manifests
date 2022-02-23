@@ -8,6 +8,8 @@
 
     <!-- Projects to remove -->
     <remove-project name="android_build_soong" />
+    <remove-project name="android_frameworks_base" />
+    <remove-project name="android_packages_apps_Settings" />
     <remove-project name="android_system_sepolicy" />
 
     <!-- Device trees -->
@@ -27,6 +29,8 @@
       <linkfile src="root.bp" dest="Android.bp" />
       <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     </project>
+    <project path="frameworks/base" name="statix_frameworks_base" revision="sc" remote="leddaz" />
+    <project path="packages/apps/Settings" name="statix_packages_apps_Settings" revision="sc" remote="leddaz" />
     <project path="system/sepolicy" name="statix_system_sepolicy" revision="sc" remote="leddaz" />
 
 </manifest>
