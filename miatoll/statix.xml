@@ -16,7 +16,7 @@
     <project path="device/xiaomi/miatoll" name="android_device_xiaomi_miatoll" revision="statix" remote="leddaz" />
 
     <!-- Kernel source -->
-    <project path="kernel/xiaomi/miatoll" name="PotatoDevices/kernel_xiaomi_miatoll" revision="frico-release" remote="github" />
+    <project path="kernel/xiaomi/miatoll" name="LeddaZ/kernel_xiaomi_miatoll" revision="frico-release" remote="github" />
 
     <!-- Vendor blobs -->
     <project path="vendor/xiaomi/miatoll" name="PotatoDevices/vendor_xiaomi_miatoll" revision="frico-release" remote="github" />
