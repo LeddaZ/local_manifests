@@ -13,7 +13,7 @@
     <remove-project name="android_system_sepolicy" />
 
     <!-- Device trees -->
-    <project path="device/xiaomi/miatoll" name="android_device_xiaomi_miatoll" revision="statix" remote="leddaz" />
+    <project path="device/xiaomi/miatoll" name="device_xiaomi_miatoll" revision="statix" remote="leddaz" />
 
     <!-- Kernel source -->
     <project path="kernel/xiaomi/miatoll" name="LeddaZ/kernel_xiaomi_miatoll" revision="frico-release" remote="github" />
