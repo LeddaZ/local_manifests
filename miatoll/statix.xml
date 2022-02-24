@@ -8,15 +8,13 @@
 
     <!-- Projects to remove -->
     <remove-project name="android_build_soong" />
-    <remove-project name="android_frameworks_base" />
-    <remove-project name="android_packages_apps_Settings" />
     <remove-project name="android_system_sepolicy" />
 
     <!-- Device trees -->
     <project path="device/xiaomi/miatoll" name="device_xiaomi_miatoll" revision="statix" remote="leddaz" />
 
     <!-- Kernel source -->
-    <project path="kernel/xiaomi/miatoll" name="LeddaZ/kernel_xiaomi_miatoll" revision="frico-release" remote="github" />
+    <project path="kernel/xiaomi/miatoll" name="kernel_xiaomi_miatoll" revision="frico-release" remote="github" />
 
     <!-- Vendor blobs -->
     <project path="vendor/xiaomi/miatoll" name="PotatoDevices/vendor_xiaomi_miatoll" revision="frico-release" remote="github" />
@@ -29,8 +27,6 @@
       <linkfile src="root.bp" dest="Android.bp" />
       <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     </project>
-    <project path="frameworks/base" name="statix_frameworks_base" revision="sc" remote="leddaz" />
-    <project path="packages/apps/Settings" name="statix_packages_apps_Settings" revision="sc" remote="leddaz" />
     <project path="system/sepolicy" name="statix_system_sepolicy" revision="sc" remote="leddaz" />
 
 </manifest>
