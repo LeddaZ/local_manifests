@@ -14,7 +14,7 @@
     <project path="device/xiaomi/miatoll" name="device_xiaomi_miatoll" revision="12" remote="leddaz" />
 
     <!-- Kernel source -->
-    <project path="kernel/xiaomi/miatoll" name="PotatoDevices/kernel_xiaomi_miatoll" revision="frico-release" remote="github" />
+    <project path="kernel/xiaomi/miatoll" name="kernel_xiaomi_miatoll" revision="frico-release" remote="github" />
 
     <!-- Vendor blobs -->
     <project path="vendor/xiaomi/miatoll" name="PotatoDevices/vendor_xiaomi_miatoll" revision="frico-release" remote="github" />
@@ -23,10 +23,10 @@
     <project path="hardware/xiaomi" name="PotatoDevices/hardware_xiaomi" revision="frico-release" remote="github" />
 
     <!-- Repos from me -->
-    <project path="build/soong" name="LeddaZ/android_build_soong" revision="12" remote="github">
+    <project path="build/soong" name="awaken_build_soong" revision="12" remote="leddaz">
       <linkfile src="root.bp" dest="Android.bp" />
       <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     </project>
-    <project path="frameworks/base" name="android_frameworks_base" revision="12" remote="leddaz" />
+    <project path="frameworks/base" name="awaken_frameworks_base" revision="12" remote="leddaz" />
 
 </manifest>
