@@ -11,10 +11,10 @@
     <remove-project name="android_system_sepolicy" />
 
     <!-- Device trees -->
-    <project path="device/xiaomi/miatoll" name="android_device_xiaomi_miatoll" revision="statix" remote="leddaz" />
+    <project path="device/xiaomi/miatoll" name="device_xiaomi_miatoll" revision="statix" remote="leddaz" />
 
     <!-- Kernel source -->
-    <project path="kernel/xiaomi/miatoll" name="PotatoDevices/kernel_xiaomi_miatoll" revision="frico-release" remote="github" />
+    <project path="kernel/xiaomi/miatoll" name="kernel_xiaomi_miatoll" revision="frico-release" remote="leddaz" />
 
     <!-- Vendor blobs -->
     <project path="vendor/xiaomi/miatoll" name="PotatoDevices/vendor_xiaomi_miatoll" revision="frico-release" remote="github" />
