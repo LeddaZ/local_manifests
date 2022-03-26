@@ -8,6 +8,7 @@
 
     <!-- Projects to remove -->
     <remove-project name="build_soong" />
+    <remove-project name="frameworks_base" />
     <remove-project name="packages_apps_Settings" />
 
     <!-- Device trees -->
@@ -28,6 +29,7 @@
       <linkfile src="root.bp" dest="Android.bp" />
       <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     </project>
+    <project path="frameworks/base" name="yaap_frameworks_base" revision="twelve" remote="leddaz" />
     <project path="packages/apps/Settings" name="yaap_packages_apps_Settings" revision="twelve" remote="leddaz" />
 
 </manifest>
