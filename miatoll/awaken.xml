@@ -6,11 +6,7 @@
     <!-- External remotes -->
     <remote name="leddaz" fetch="https://github.com/LeddaZ" />
 
-    <!-- Projects to remove -->
-    <remove-project name="android_build_soong" />
-    <remove-project name="android_frameworks_base" />
-
-    <!-- Device trees -->
+    <!-- Device tree -->
     <project path="device/xiaomi/miatoll" name="device_xiaomi_miatoll" revision="12" remote="leddaz" />
 
     <!-- Kernel source -->
@@ -19,14 +15,10 @@
     <!-- Vendor blobs -->
     <project path="vendor/xiaomi/miatoll" name="PotatoDevices/vendor_xiaomi_miatoll" revision="frico-release" remote="github" />
 
-    <!-- Repos from POSP -->
-    <project path="hardware/xiaomi" name="PotatoDevices/hardware_xiaomi" revision="frico-release" remote="github" />
+    <!-- GCam -->
+    <project path="vendor/xiaomi/miatoll-gcam" name="LeddaZ/vendor_xiaomi_miatoll-gcam" revision="twelve" remote="gitlab" />
 
-    <!-- Repos from me -->
-    <project path="build/soong" name="awaken_build_soong" revision="12" remote="leddaz">
-      <linkfile src="root.bp" dest="Android.bp" />
-      <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
-    </project>
-    <project path="frameworks/base" name="awaken_frameworks_base" revision="12" remote="leddaz" />
+    <!-- hardware/xiaomi from LineageOS -->
+    <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" revision="lineage-19.1" remote="github" />
 
 </manifest>
