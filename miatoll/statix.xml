@@ -21,7 +21,7 @@
     <project path="vendor/xiaomi/miatoll-gcam" name="LeddaZ/vendor_xiaomi_miatoll-gcam" revision="twelve" remote="gitlab" />
 
     <!-- Hardware repos -->
-    <project path="hardware/xiaomi" name="PotatoDevices/hardware_xiaomi" revision="frico-release" remote="github" />
+    <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" revision="lineage-19.1" remote="github" />
 
     <!-- Repos from me -->
     <project path="build/soong" name="statix_build_soong" revision="sc-v2" remote="leddaz">
