@@ -8,6 +8,7 @@
 
     <!-- Projects to remove -->
     <remove-project name="build_soong" />
+    <remove-project name="frameworks_base" />
     <remove-project name="packages_apps_Settings" />
 
     <!-- Device trees -->
@@ -18,6 +19,7 @@
 
     <!-- Vendor blobs -->
     <project path="vendor/xiaomi/miatoll" name="PotatoDevices/vendor_xiaomi_miatoll" revision="frico-release" remote="github" />
+    <project path="vendor/xiaomi/miatoll-gcam" name="LeddaZ/vendor_xiaomi_miatoll-gcam" revision="twelve" remote="gitlab" />
 
     <!-- Hardware repos -->
     <project path="hardware/xiaomi" name="PotatoDevices/hardware_xiaomi" revision="frico-release" remote="github" />
@@ -27,6 +29,7 @@
       <linkfile src="root.bp" dest="Android.bp" />
       <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     </project>
+    <project path="frameworks/base" name="yaap_frameworks_base" revision="twelve" remote="leddaz" />
     <project path="packages/apps/Settings" name="yaap_packages_apps_Settings" revision="twelve" remote="leddaz" />
 
 </manifest>
