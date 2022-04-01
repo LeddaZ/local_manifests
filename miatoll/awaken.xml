@@ -7,7 +7,7 @@
     <remote name="leddaz" fetch="https://github.com/LeddaZ" />
 
     <!-- Device tree -->
-    <project path="device/xiaomi/miatoll" name="device_xiaomi_miatoll" revision="12" remote="leddaz" />
+    <project path="device/xiaomi/miatoll" name="device_xiaomi_miatoll" revision="12.1" remote="leddaz" />
 
     <!-- Kernel source -->
     <project path="kernel/xiaomi/miatoll" name="kernel_xiaomi_miatoll" revision="frico-release" remote="leddaz" />
