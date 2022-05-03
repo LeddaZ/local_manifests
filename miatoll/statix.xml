@@ -6,10 +6,6 @@
     <!-- External remotes -->
     <remote name="leddaz" fetch="https://github.com/LeddaZ" />
 
-    <!-- Projects to remove -->
-    <remove-project name="android_build_soong" />
-    <remove-project name="android_frameworks_base" />
-
     <!-- Device trees -->
     <project path="device/xiaomi/miatoll" name="device_xiaomi_miatoll" revision="statix" remote="leddaz" />
 
@@ -22,12 +18,5 @@
 
     <!-- Hardware repos -->
     <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" revision="lineage-19.1" remote="github" />
-
-    <!-- Repos from me -->
-    <project path="build/soong" name="statix_build_soong" revision="sc-v2" remote="leddaz">
-      <linkfile src="root.bp" dest="Android.bp" />
-      <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
-    </project>
-    <project path="frameworks/base" name="statix_frameworks_base" revision="sc-v2" remote="leddaz" />
-
+    
 </manifest>
