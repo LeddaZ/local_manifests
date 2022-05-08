@@ -7,13 +7,13 @@
     <remote name="leddaz" fetch="https://github.com/LeddaZ" />
 
     <!-- Device trees -->
-    <project path="device/xiaomi/miatoll" name="device_xiaomi_miatoll" revision="statix" remote="leddaz" />
+    <project path="device/xiaomi/miatoll" name="device_xiaomi_miatoll" revision="sc-v2" remote="leddaz" />
 
     <!-- Kernel source -->
     <project path="kernel/xiaomi/miatoll" name="kernel_xiaomi_miatoll" revision="frico-release" remote="leddaz" />
 
     <!-- Vendor blobs -->
-    <project path="vendor/xiaomi/miatoll" name="PotatoDevices/vendor_xiaomi_miatoll" revision="frico-release" remote="github" />
+    <project path="vendor/xiaomi/miatoll" name="PotatoDevices/vendor_xiaomi_miatoll" revision="frico_mr1-release" remote="github" />
     <project path="vendor/xiaomi/miatoll-gcam" name="LeddaZ/vendor_xiaomi_miatoll-gcam" revision="twelve" remote="gitlab" />
 
     <!-- Hardware repos -->
