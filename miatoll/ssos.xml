@@ -11,13 +11,14 @@
     <project path="device/xiaomi/sm6250-common" name="android_device_xiaomi_sm6250-common" remote="ssos-a11-asb" />
 
     <!-- Kernel source -->
-    <project path="kernel/xiaomi/miatoll" name="kernel_xiaomi_miatoll" revision="frico-release" remote="leddaz" />
+    <project path="kernel/xiaomi/sm6250" name="kernel_xiaomi_miatoll" revision="frico_mr1-release" remote="leddaz" />
 
     <!-- Vendor blobs -->
-    <project path="vendor/xiaomi" name="LeddaZ/proprietary_vendor_xiaomi" revision="lineage-18.1" remote="gitlab" />
+    <project path="vendor/xiaomi/miatoll" name="fluid-a11-asb/vendor_xiaomi_miatoll" revision="fluid-11" remote="github" />
+    <project path="vendor/xiaomi/sm6250-common" name="fluid-a11-asb/vendor_xiaomi_sm6250-common" revision="fluid-11" remote="github" />
     <project path="vendor/xiaomi/miatoll-gcam" name="LeddaZ/vendor_xiaomi_miatoll-gcam" revision="twelve" remote="gitlab" />
 
-    <!-- Repos from LineageOS -->
-    <project path="hardware/xiaomi" name="android_hardware_xiaomi" revision="lineage-18.1" remote="lineage" />
+    <!-- Hardware repos -->
+    <project path="hardware/xiaomi" name="android_hardware_xiaomi" revision="lineage-18.1" remote="leddaz" />
 
 </manifest>
