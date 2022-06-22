@@ -18,6 +18,6 @@
     <project path="vendor/xiaomi/sm6250-common" name="vendor_xiaomi_sm6250-common" remote="fluid-a11-asb" />
 
     <!-- Repos from LineageOS -->
-    <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="LineageOS" />
+    <project path="hardware/xiaomi" name="android_hardware_xiaomi" revision="lineage-18.1" remote="leddaz" />
 
 </manifest>
