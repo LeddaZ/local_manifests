@@ -19,6 +19,6 @@
     <project path="vendor/xiaomi/miatoll-gcam" name="LeddaZ/vendor_xiaomi_miatoll-gcam" revision="twelve" remote="gitlab" />
 
     <!-- Hardware repos -->
-    <project path="hardware/xiaomi" name="android_hardware_xiaomi" revision="lineage-18.1" remote="lineage" />
+    <project path="hardware/xiaomi" name="android_hardware_xiaomi" revision="lineage-18.1" remote="leddaz" />
 
 </manifest>
