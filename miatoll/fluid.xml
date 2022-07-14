@@ -1,25 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-    <!-- Project Fluid 1.x manifest for miatoll -->
+    <!-- Project Fluid 2.x manifest for miatoll -->
 
     <!-- External remotes -->
     <remote name="leddaz" fetch="https://github.com/LeddaZ" />
     <remote name="gitlab" fetch="https://gitlab.com/" />
 
-    <!-- Device trees -->
-    <project path="device/xiaomi/miatoll" name="device_xiaomi_miatoll" remote="fluid-a11-asb" />
-    <project path="device/xiaomi/sm6250-common" name="device_xiaomi_sm6250-common" remote="fluid-a11-asb" />
+    <!-- Device tree -->
+    <project path="device/xiaomi/miatoll" name="device_xiaomi_miatoll" remote="leddaz" revision="fluid-12.1" />
 
     <!-- Kernel source -->
-    <project path="kernel/xiaomi/sm6250" name="kernel_xiaomi_miatoll" revision="frico_mr1-release" remote="leddaz" />
+    <project path="kernel/xiaomi/miatoll" name="kernel_xiaomi_miatoll" revision="frico_mr1-release" remote="leddaz" />
 
     <!-- Vendor blobs -->
-    <project path="vendor/xiaomi/miatoll" name="vendor_xiaomi_miatoll" remote="fluid-a11-asb" />
-    <project path="vendor/xiaomi/sm6250-common" name="vendor_xiaomi_sm6250-common" remote="fluid-a11-asb" />
+    <project path="vendor/xiaomi/miatoll" name="vendor_xiaomi_miatoll" remote="leddaz" revision="frico_mr1-release" />
     <project path="vendor/xiaomi/miatoll-gcam" name="LeddaZ/vendor_xiaomi_miatoll-gcam" revision="twelve" remote="gitlab" />
 
     <!-- Repos from LineageOS -->
-    <project path="hardware/xiaomi" name="android_hardware_xiaomi" revision="lineage-18.1" remote="leddaz" />
+    <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" revision="lineage-19.1" remote="LineageOS" />
 
 </manifest>
