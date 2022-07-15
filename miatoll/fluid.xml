@@ -5,7 +5,6 @@
 
     <!-- External remotes -->
     <remote name="leddaz" fetch="https://github.com/LeddaZ" />
-    <remote name="gitlab" fetch="https://gitlab.com/" />
 
     <!-- Device tree -->
     <project path="device/xiaomi/miatoll" name="device_xiaomi_miatoll" remote="leddaz" revision="fluid-12.1" />
@@ -15,7 +14,7 @@
 
     <!-- Vendor blobs -->
     <project path="vendor/xiaomi/miatoll" name="vendor_xiaomi_miatoll" remote="leddaz" revision="frico_mr1-release" />
-    <project path="vendor/xiaomi/miatoll-gcam" name="LeddaZ/vendor_xiaomi_miatoll-gcam" revision="twelve" remote="gitlab" />
+    <project path="vendor/xiaomi/miatoll-gcam" name="vendor_xiaomi_miatoll-gcam" revision="twelve" remote="gitlab" />
 
     <!-- Repos from LineageOS -->
     <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" revision="lineage-19.1" remote="LineageOS" />
