@@ -18,5 +18,8 @@
 
     <!-- Hardware repos -->
     <project path="hardware/xiaomi" name="leddaz-stuff/android_hardware_xiaomi" revision="lineage-19.1" remote="github" />
+
+    <!-- AOSP Clang 15.0.1 -->
+    <project path="prebuilts/clang/host/linux-x86/clang-r458507" name="LeddaZ/aosp-clang" revision="15.0.1-r458507" remote="gitlab" />
     
 </manifest>
