@@ -21,6 +21,6 @@
     <project path="hardware/xiaomi" name="leddaz-stuff/android_hardware_xiaomi" revision="tm" remote="github" />
 
     <!-- GMS -->
-    <project path="vendor/google/gms" name="android_vendor_google_gms" revision="tm" remote="leddaz-gitlab" />
+    <project path="vendor/gms" name="android_vendor_google_gms" revision="tm" remote="leddaz-gitlab" />
     
 </manifest>
