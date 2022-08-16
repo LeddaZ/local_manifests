@@ -5,6 +5,7 @@
 
     <!-- External remotes -->
     <remote name="leddaz" fetch="https://github.com/LeddaZ" />
+    <remote name="leddaz-gitlab" fetch="https://gitlab.com/LeddaZ" />
 
     <!-- Device trees -->
     <project path="device/xiaomi/miatoll" name="device_xiaomi_miatoll" revision="tm" remote="leddaz" />
@@ -18,5 +19,8 @@
 
     <!-- Hardware repos -->
     <project path="hardware/xiaomi" name="leddaz-stuff/android_hardware_xiaomi" revision="tm" remote="github" />
+
+    <!-- GMS -->
+    <project path="vendor/google/gms" name="android_vendor_google_gms" revision="tm" remote="leddaz-gitlab" />
     
 </manifest>
