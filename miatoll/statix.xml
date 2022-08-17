@@ -11,7 +11,7 @@
     <project path="device/xiaomi/miatoll" name="device_xiaomi_miatoll" revision="tm" remote="leddaz" />
     <project path="device/xiaomi/miatoll-kernel" name="device_xiaomi_miatoll-kernel" revision="tm" remote="leddaz" />
 
-    <!-- Hardware repos -->
+    <!-- Hardware -->
     <project path="hardware/xiaomi" name="leddaz-stuff/android_hardware_xiaomi" revision="tm" remote="github" />
 
     <!-- Vendor -->
