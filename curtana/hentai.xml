@@ -5,7 +5,7 @@
 
     <!-- Remotes -->
     <remote name="leddaz" fetch="https://github.com/LeddaZ" revision="TwistedScarlett" />
-    <remote name="pixel-devices-blobs" fetch="https://gitlab.pixelexperience.org/android/vendor-blobs" revision="twelve" />
+    <remote name="leddaz-gitlab" fetch="https://gitlab.com/LeddaZ" revision="twelve" />
     <remote name="leddaz-private" fetch="ssh://git@github.com/LeddaZ" revision="TwistedScarlett" />
 
     <!-- Device -->
@@ -14,6 +14,6 @@
 
     <!-- Vendor -->
     <project path="vendor/xiaomi/curtana" name="vendor_xiaomi_curtana" remote="leddaz-private" />
-    <project path="vendor/xiaomi/miatoll-gcam" name="vendor_xiaomi_miatoll-gcam" remote="pixel-devices-blobs" />    
+    <project path="vendor/xiaomi/miatoll-gcam" name="vendor_xiaomi_miatoll-gcam" remote="leddaz-gitlab" />    
     
 </manifest>
