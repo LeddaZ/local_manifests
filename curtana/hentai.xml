@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-    <!-- hentaiOS TwistedScarlett manifest for miatoll -->
+    <!-- hentaiOS TwistedScarlett manifest for curtana -->
 
     <!-- Remotes -->
     <remote name="leddaz" fetch="https://github.com/LeddaZ" revision="TwistedScarlett" />
