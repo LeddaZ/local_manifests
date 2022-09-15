@@ -10,6 +10,7 @@
 
     <!-- Device -->
     <project path="device/xiaomi/curtana" name="device_xiaomi_curtana" remote="leddaz-private" />
+    <project path="device/xiaomi/curtana-firmware" name="device_xiaomi_curtana-firmware" remote="leddaz-gitlab" />
     <project path="device/xiaomi/curtana-kernel" name="device_xiaomi_curtana-kernel" remote="leddaz" />
 
     <!-- Hardware -->
