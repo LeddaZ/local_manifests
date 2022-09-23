@@ -3,22 +3,20 @@
 
     <!-- ShapeShiftOS 2.x manifest for miatoll -->
 
-    <!-- External remotes -->
+    <!-- Remotes -->
     <remote name="leddaz" fetch="https://github.com/LeddaZ" />
 
-    <!-- Device trees -->
+    <!-- Device -->
     <project path="device/xiaomi/miatoll" name="android_device_xiaomi_miatoll" remote="ssos-a11-asb" />
     <project path="device/xiaomi/sm6250-common" name="android_device_xiaomi_sm6250-common" remote="ssos-a11-asb" />
+    <project path="device/xiaomi/sm6250-common-kernel" name="device_xiaomi_curtana-kernel" remote="leddaz" revision="tm" />
 
-    <!-- Kernel source -->
-    <project path="kernel/xiaomi/sm6250" name="kernel_xiaomi_miatoll" revision="frico_mr1-release" remote="leddaz" />
+    <!-- Hardware -->
+    <project path="hardware/xiaomi" name="android_hardware_xiaomi" revision="lineage-18.1" remote="leddaz" />
 
-    <!-- Vendor blobs -->
+    <!-- Vendor -->
     <project path="vendor/xiaomi/miatoll" name="fluid-a11-asb/vendor_xiaomi_miatoll" revision="fluid-11" remote="github" />
     <project path="vendor/xiaomi/sm6250-common" name="fluid-a11-asb/vendor_xiaomi_sm6250-common" revision="fluid-11" remote="github" />
     <project path="vendor/xiaomi/miatoll-gcam" name="LeddaZ/vendor_xiaomi_miatoll-gcam" revision="twelve" remote="gitlab" />
-
-    <!-- Hardware repos -->
-    <project path="hardware/xiaomi" name="android_hardware_xiaomi" revision="lineage-18.1" remote="leddaz" />
 
 </manifest>
