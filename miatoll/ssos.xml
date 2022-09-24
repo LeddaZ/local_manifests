@@ -9,10 +9,12 @@
     <!-- Device -->
     <project path="device/xiaomi/miatoll" name="android_device_xiaomi_miatoll" remote="ssos-a11-asb" />
     <project path="device/xiaomi/sm6250-common" name="android_device_xiaomi_sm6250-common" remote="ssos-a11-asb" />
-    <project path="device/xiaomi/sm6250-common-kernel" name="device_xiaomi_curtana-kernel" remote="leddaz" revision="android_11" />
 
     <!-- Hardware -->
     <project path="hardware/xiaomi" name="android_hardware_xiaomi" revision="lineage-18.1" remote="leddaz" />
+
+    <!-- Kernel -->
+    <project path="kernel/xiaomi/sm6250" name="kernel_xiaomi_miatoll" remote="leddaz" revision="tm" />
 
     <!-- Vendor -->
     <project path="vendor/xiaomi/miatoll" name="android_vendor_xiaomi_miatoll" revision="android_11" remote="leddaz" />
