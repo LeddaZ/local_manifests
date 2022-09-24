@@ -17,8 +17,8 @@
     <project path="kernel/xiaomi/sm6250" name="kernel_xiaomi_miatoll" remote="leddaz" revision="tm" />
 
     <!-- Vendor -->
-    <project path="vendor/xiaomi/miatoll" name="android_vendor_xiaomi_miatoll" revision="android_11" remote="leddaz" />
-    <project path="vendor/xiaomi/sm6250-common" name="android_vendor_xiaomi_sm6250-common" revision="android_11" remote="leddaz" />
+    <project path="vendor/xiaomi/miatoll" name="fluid-a11-asb/vendor_xiaomi_miatoll" revision="fluid-11" remote="github" />
+    <project path="vendor/xiaomi/sm6250-common" name="fluid-a11-asb/vendor_xiaomi_sm6250-common" revision="fluid-11" remote="github" />
     <project path="vendor/xiaomi/miatoll-gcam" name="LeddaZ/vendor_xiaomi_miatoll-gcam" revision="twelve" remote="gitlab" />
 
 </manifest>
