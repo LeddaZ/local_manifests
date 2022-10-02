@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-    <!-- StatiX 6.x manifest for miatoll -->
+    <!-- StatiXOS 6.x manifest for miatoll -->
 
     <!-- Remotes -->
-    <remote name="leddaz" fetch="https://github.com/LeddaZ" />
+    <remote name="leddaz" fetch="https://github.com/LeddaZ" revision="tm" />
+    <remote name="leddaz-gitlab" fetch="https://gitlab.com/LeddaZ" />
+    <remote name="leddaz-private" fetch="ssh://git@github.com/LeddaZ" revision="tm" />
 
     <!-- Device -->
-    <project path="device/xiaomi/miatoll" name="device_xiaomi_miatoll" revision="tm" remote="leddaz" />
-    <project path="device/xiaomi/miatoll-kernel" name="device_xiaomi_miatoll-kernel" revision="tm" remote="leddaz" />
-
-    <!-- Hardware -->
-    <project path="hardware/xiaomi" name="leddaz-stuff/android_hardware_xiaomi" revision="tm" remote="github" />
+    <project path="device/xiaomi/miatoll" name="device_xiaomi_miatoll" remote="leddaz-private" />
+    <project path="device/xiaomi/miatoll-kernel" name="device_xiaomi_miatoll-kernel" remote="leddaz" />
 
     <!-- Vendor -->
-    <project path="vendor/xiaomi/miatoll" name="vendor_xiaomi_miatoll" revision="tm" remote="leddaz" />
-    <project path="vendor/xiaomi/miatoll-gcam" name="LeddaZ/vendor_xiaomi_miatoll-gcam" revision="twelve" remote="gitlab" />    
+    <project path="vendor/xiaomi/miatoll" name="vendor_xiaomi_miatoll" remote="leddaz-private" />
+    <project path="vendor/xiaomi/miatoll-gcam" name="vendor_xiaomi_miatoll-gcam" revision="twelve" remote="leddaz-gitlab" />    
     
 </manifest>
