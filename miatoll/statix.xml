@@ -10,10 +10,5 @@
 
     <!-- Device -->
     <project path="device/xiaomi/miatoll" name="device_xiaomi_miatoll" remote="leddaz-private" />
-    <project path="device/xiaomi/miatoll-kernel" name="device_xiaomi_miatoll-kernel" remote="leddaz" />
-
-    <!-- Vendor -->
-    <project path="vendor/xiaomi/miatoll" name="vendor_xiaomi_miatoll" remote="leddaz-private" />
-    <project path="vendor/xiaomi/miatoll-gcam" name="vendor_xiaomi_miatoll-gcam" revision="twelve" remote="leddaz-gitlab" />    
     
 </manifest>
