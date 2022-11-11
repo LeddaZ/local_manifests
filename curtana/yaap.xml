@@ -11,11 +11,10 @@
     <!-- Device -->
     <project path="device/xiaomi/curtana" name="device_xiaomi_curtana" remote="leddaz-private" revision="yaap" />
     <project path="device/xiaomi/curtana-firmware" name="device_xiaomi_curtana-firmware" revision="tm-eea" remote="leddaz-gitlab" />
-
-    <!-- Kernel -->
-    <project path="kernel/xiaomi/sm6250" name="kernel_xiaomi_sm6250" remote="leddaz" />
+    <project path="device/xiaomi/curtana-kernel" name="device_xiaomi_curtana-kernel" remote="leddaz" />
 
     <!-- Vendor -->
+    <project path="vendor/google/interfaces" name="AOSPA/android_vendor_google_interfaces" remote="github" revision="topaz" />
     <project path="vendor/xiaomi/curtana" name="vendor_xiaomi_curtana" remote="leddaz-private" revision="tm-eea" />
     <project path="vendor/xiaomi/miatoll-gcam" name="vendor_xiaomi_miatoll-gcam" revision="twelve" remote="leddaz-gitlab" />    
     
