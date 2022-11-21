@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-    <!-- YAAP 13 manifest for curtana -->
+    <!-- Awaken 3.x manifest for curtana -->
 
     <!-- Remotes -->
     <remote name="leddaz" fetch="https://github.com/LeddaZ" revision="tm" />
@@ -9,11 +9,8 @@
     <remote name="leddaz-private" fetch="ssh://git@github.com/LeddaZ" />
 
     <!-- Device -->
-    <project path="device/xiaomi/curtana" name="device_xiaomi_curtana" remote="leddaz-private" revision="yaap" />
+    <project path="device/xiaomi/curtana" name="device_xiaomi_curtana" remote="leddaz-private" revision="triton" />
     <project path="device/xiaomi/curtana-firmware" name="device_xiaomi_curtana-firmware" revision="tm" remote="leddaz-gitlab" />
-
-    <!-- Hardware -->
-    <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-20" />
 
     <!-- Kernel -->
     <project path="kernel/xiaomi/sm6250" name="kernel_xiaomi_sm6250" remote="leddaz" />
