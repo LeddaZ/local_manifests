@@ -6,17 +6,17 @@
     <!-- Remotes -->
     <remote name="leddaz" fetch="https://github.com/LeddaZ" revision="tm" />
     <remote name="leddaz-gitlab" fetch="https://gitlab.com/LeddaZ" />
-    <remote name="leddaz-private" fetch="ssh://git@github.com/LeddaZ" />
+    <remote name="leddaz-private" fetch="ssh://git@github.com/LeddaZ" revision="triton" />
 
     <!-- Device -->
-    <project path="device/xiaomi/curtana" name="device_xiaomi_curtana" remote="leddaz-private" revision="triton" />
+    <project path="device/xiaomi/curtana" name="device_xiaomi_curtana" remote="leddaz-private" />
     <project path="device/xiaomi/curtana-firmware" name="device_xiaomi_curtana-firmware" revision="tm" remote="leddaz-gitlab" />
 
     <!-- Kernel -->
     <project path="kernel/xiaomi/sm6250" name="kernel_xiaomi_sm6250" remote="leddaz" />
 
     <!-- Vendor -->
-    <project path="vendor/xiaomi/curtana" name="vendor_xiaomi_curtana" remote="leddaz-private" revision="tm" />
+    <project path="vendor/xiaomi/curtana" name="vendor_xiaomi_curtana" remote="leddaz-private" />
     <project path="vendor/xiaomi/miatoll-gcam" name="vendor_xiaomi_miatoll-gcam" revision="twelve" remote="leddaz-gitlab" />
 
 </manifest>
