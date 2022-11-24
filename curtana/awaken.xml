@@ -4,7 +4,7 @@
     <!-- Awaken 3.x manifest for curtana -->
 
     <!-- Remotes -->
-    <remote name="leddaz" fetch="https://github.com/LeddaZ" revision="tm-oss" />
+    <remote name="leddaz" fetch="https://github.com/LeddaZ" revision="tm" />
     <remote name="leddaz-gitlab" fetch="https://gitlab.com/LeddaZ" />
     <remote name="leddaz-private" fetch="ssh://git@github.com/LeddaZ" revision="triton" />
 
