@@ -14,7 +14,7 @@
     <project path="hardware/xiaomi" name="android_hardware_xiaomi" revision="lineage-18.1" remote="leddaz" />
 
     <!-- Kernel -->
-    <project path="kernel/xiaomi/sm6250" name="kernel_xiaomi_miatoll" remote="leddaz" revision="tm" />
+    <project path="kernel/xiaomi/sm6250" name="kernel_xiaomi_sm6250" remote="leddaz" revision="tm" />
 
     <!-- Vendor -->
     <project path="vendor/xiaomi/miatoll" name="fluid-a11-asb/vendor_xiaomi_miatoll" revision="fluid-11" remote="github" />
