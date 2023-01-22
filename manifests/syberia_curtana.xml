@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <!-- Syberia 13 manifest for curtana -->
+
+    <!-- Device -->
+    <project path="device/xiaomi/curtana" name="LeddaZ/android_device_xiaomi_curtana" remote="github" revision="13.0" />
+    <project path="device/xiaomi/curtana-firmware" name="LeddaZ/android_device_xiaomi_curtana-firmware" remote="gitlab" revision="tm-qpr1" />
+
+    <!-- Hardware -->
+    <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-20" />
+
+    <!-- Kernel -->
+    <project path="kernel/xiaomi/sm6250" name="LeddaZ/android_kernel_xiaomi_sm6250" remote="github" revision="tm-qpr1" />
+
+    <!-- Vendor -->
+    <project path="vendor/xiaomi/curtana" name="LeddaZ/android_vendor_xiaomi_curtana" remote="github" revision="tm-qpr1" />
+    <project path="vendor/xiaomi/miatoll-gcam" name="LeddaZ/android_vendor_xiaomi_miatoll-gcam" remote="gitlab" revision="tm-qpr1" />    
+    
+</manifest>
