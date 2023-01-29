@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <!-- Awaken 3.x manifest for curtana -->
+
+    <!-- Device -->
+    <project path="device/xiaomi/curtana" name="LeddaZ/android_device_xiaomi_curtana" remote="github" revision="triton" />
+    <project path="device/xiaomi/curtana-firmware" name="LeddaZ/android_device_xiaomi_curtana-firmware" remote="gitlab" revision="tm-qpr1" />
+
+    <!-- Kernel -->
+    <project path="kernel/xiaomi/sm6250" name="LeddaZ/android_kernel_xiaomi_sm6250" remote="github" revision="tm-qpr1" />
+
+    <!-- Vendor -->
+    <project path="vendor/xiaomi/curtana" name="LeddaZ/android_vendor_xiaomi_curtana" remote="github" revision="triton" />
+    <project path="vendor/xiaomi/miatoll-gcam" name="LeddaZ/android_vendor_xiaomi_miatoll-gcam" remote="gitlab" />    
+    
+</manifest>
