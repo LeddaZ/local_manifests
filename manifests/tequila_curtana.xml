@@ -17,7 +17,7 @@
     <project path="kernel/xiaomi/sm6250" name="LeddaZ/android_kernel_xiaomi_sm6250" remote="github" revision="tm-qpr1" />
 
     <!-- Vendor -->
-    <project path="vendor/xiaomi/curtana" name="LeddaZ/android_vendor_xiaomi_curtana" remote="github" revision="tm-qpr1" />
+    <project path="vendor/xiaomi/curtana" name="LeddaZ/android_vendor_xiaomi_curtana" remote="github" revision="tortilla" />
     <project path="vendor/xiaomi/miatoll-gcam" name="LeddaZ/android_vendor_xiaomi_miatoll-gcam" remote="gitlab" />    
     
 </manifest>
