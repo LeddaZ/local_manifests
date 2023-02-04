@@ -12,6 +12,6 @@
 
     <!-- Vendor -->
     <project path="vendor/xiaomi/curtana" name="LeddaZ/android_vendor_xiaomi_curtana" remote="github" revision="triton" />
-    <project path="vendor/xiaomi/miuicamera" name="LeddaZ/android_vendor_xiaomi_miuicamera" remote="github" revision="thirteen" />    
+    <project path="vendor/xiaomi/miuicamera" name="SonalSingh18/vendor_xiaomi_miuicamera" remote="github" revision="thirteen" />    
     
 </manifest>
