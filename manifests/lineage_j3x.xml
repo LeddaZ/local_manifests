@@ -11,10 +11,13 @@
 	<project path="vendor/nxp-nfc/opensource/frameworks" name="LineageOS/android_vendor_nxp-nfc_opensource_frameworks" revision="cm-14.1" />
 	<project path="vendor/nxp-nfc/opensource/libnfc-nci" name="LineageOS/android_vendor_nxp-nfc_opensource_libnfc-nci" revision="cm-14.1" />
 	
-	<project path="device/samsung/sharkls-common" name="djeman/android_device_samsung_sharkls-common" revision="cm-14.1" />
-	<project path="device/samsung/j3xnlte" name="djeman/android_device_samsung_j3xnlte" revision="cm-14.1" />
-	<project path="device/samsung/j3xlte" name="djeman/android_device_samsung_j3xlte" revision="cm-14.1" />
-	<project path="kernel/samsung/sharkls" name="djeman/android_kernel_samsung_sharkls" revision="cm-14.1" />
-	<project path="vendor/samsung/common" name="djeman/android_vendor_samsung_common" revision="cm-14.1" />
-	<project path="vendor/sprd" name="djeman/android_vendor_sprd" revision="cm-14.1" /> 
+	<project path="device/samsung/sharkls-common" name="j3-16/android_device_samsung_sharkls-common" revision="cm-14.1" />
+	<project path="device/samsung/j3xnlte" name="j3-16/android_device_samsung_j3xnlte" revision="cm-14.1" />
+	<project path="device/samsung/j3xlte" name="j3-16/android_device_samsung_j3xlte" revision="cm-14.1" />
+	<project path="device/samsung/j3x-common" name="j3-16/android_device_samsung_j3x-common" revision="cm-14.1" />
+	<project path="kernel/samsung/sharkls" name="j3-16/android_kernel_samsung_sharkls" revision="cm-14.1" />
+	<project path="vendor/samsung/common" name="j3-16/android_vendor_samsung_common" revision="cm-14.1" />
+	<project path="vendor/samsung/j3xnlte" name="j3-16/android_vendor_samsung_j3xnlte" revision="cm-14.1" />
+	<project path="vendor/samsung/j3x-common" name="j3-16/android_vendor_samsung_j3x-common" revision="cm-14.1" />
+	<project path="vendor/sprd" name="j3-16/android_vendor_sprd" revision="cm-14.1" /> 
 </manifest>
