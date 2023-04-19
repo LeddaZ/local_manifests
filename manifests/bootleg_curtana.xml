@@ -9,7 +9,7 @@
 
     <!-- Device -->
     <project path="device/xiaomi/curtana" name="android_device_xiaomi_curtana" remote="leddaz-github" revision="tirimbino" />
-    <project path="device/xiaomi/curtana-firmware" name="android_device_xiaomi_curtana-firmware" remote="leddaz-gitlab" revision="tm-qpr2" />
+    <project path="device/xiaomi/curtana-firmware" name="android_device_xiaomi_curtana-firmware" remote="leddaz-gitlab" revision="tm" />
 
     <!-- Kernel -->
     <project path="kernel/xiaomi/sm6250" name="android_kernel_xiaomi_sm6250" remote="leddaz-github" revision="tm" />
