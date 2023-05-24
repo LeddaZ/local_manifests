@@ -17,6 +17,6 @@
 
     <!-- Vendor -->
     <project path="vendor/xiaomi/miatoll" name="android_vendor_xiaomi_miatoll" remote="ssos-lts" />
-    <project path="vendor/xiaomi/miatoll-gcam" name="LeddaZ/android_vendor_xiaomi_miatoll-gcam" revision="android-11" remote="gitlab" />
+    <project path="vendor/xiaomi/curtana-gcam" name="LeddaZ/android_vendor_xiaomi_curtana-gcam" revision="tm" remote="gitlab" />
 
 </manifest>
