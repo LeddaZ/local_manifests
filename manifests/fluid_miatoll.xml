@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <!-- Fluid 1.x manifest for miatoll -->
+
+    <!-- Remotes -->
+    <remote name="leddaz" fetch="https://github.com/LeddaZ" />
+
+    <!-- Device -->
+    <project path="device/xiaomi/miatoll" name="device_xiaomi_miatoll" remote="fluid-lts" />
+
+    <!-- Hardware -->
+    <project path="hardware/xiaomi" name="android_hardware_xiaomi" revision="lineage-18.1" remote="leddaz" />
+
+    <!-- Kernel -->
+    <project path="kernel/xiaomi/sm6250" name="android_kernel_xiaomi_sm6250" remote="leddaz" revision="tm" />
+
+    <!-- Vendor -->
+    <project path="vendor/xiaomi/miatoll" name="vendor_xiaomi_miatoll" remote="fluid-lts" />
+    <project path="vendor/xiaomi/curtana-gcam" name="LeddaZ/android_vendor_xiaomi_curtana-gcam" revision="tm" remote="gitlab" />
+
+</manifest>
