@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <!-- LineageOS 20 manifest for miatoll -->
+
+    <!-- External remotes -->
+    <remote name="muppets" fetch="https://github.com/TheMuppets" revision="lineage-20" />
+
+    <!-- Device repos -->
+    <project path="device/xiaomi/miatoll" name="LineageOS/android_device_xiaomi_miatoll" remote="github" revision="lineage-20" />
+    <project path="device/xiaomi/sm6250-common" name="LineageOS/android_device_xiaomi_sm6250-common" remote="github" revision="lineage-20" />
+
+    <!-- Hardware repos -->
+    <project path="hardware/sony/timekeep" name="LineageOS/android_hardware_sony_timekeep" remote="github" revision="lineage-20" />
+    <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-20" />
+
+    <!-- Kernel repos -->
+    <project path="kernel/xiaomi/sm6250" name="LineageOS/android_kernel_xiaomi_sm6250" remote="github" revision="lineage-20" />
+
+    <!-- Vendor repos -->
+    <project path="vendor/xiaomi/miatoll" name="proprietary_vendor_xiaomi_miatoll" remote="muppets" />
+    <project path="vendor/xiaomi/sm6250-common" name="proprietary_vendor_xiaomi_sm6250-common" remote="muppets" />
+
+</manifest>
