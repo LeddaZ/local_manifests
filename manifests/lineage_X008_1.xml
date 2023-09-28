@@ -7,8 +7,11 @@
     <project path="device/asus/X008_1" name="asus-mt6737-dev/android_device_asus_X008_1" remote="github" revision="cm-14.1" />
     <project path="device/asus/mt6737-common" name="asus-mt6737-dev/android_device_asus_mt6737-common" remote="github" revision="cm-14.1" />
 
-    <!-- Kernel repo -->
+    <!-- Kernel repos -->
     <project path="kernel/asus/mt6737" name="asus-mt6737-dev/android_kernel_asus_mt6737" remote="github" revision="cm-14.1" />
+
+    <!-- Package repos -->
+    <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="cm-14.1" />
 
     <!-- Vendor repos -->
     <project path="vendor/asus/X008_1" name="asus-mt6737-dev/android_vendor_asus_X008_1" remote="github" revision="cm-14.1" />
