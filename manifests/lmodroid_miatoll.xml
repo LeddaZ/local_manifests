@@ -13,7 +13,7 @@
     <project path="device/xiaomi/sm6250-common" name="leddaz-stuff/android_device_xiaomi_sm6250-common" remote="github" revision="lineage-20" />
 
     <!-- External repos -->
-    <project path="external/ih8sn" name="LeddaZ/ih8sn" remote="github" revision="master" />
+    <project path="external/ih8sn" name="LeddaZ/ih8sn" remote="github" revision="master-lmodroid" />
 
     <!-- Hardware repos -->
     <project path="hardware/sony/timekeep" name="android_hardware_sony_timekeep" remote="lineage" revision="lineage-20" />
