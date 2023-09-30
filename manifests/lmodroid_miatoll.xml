@@ -8,6 +8,9 @@
     <remote name="gitlab" fetch="https://gitlab.com/" />
     <remote name="muppets" fetch="https://github.com/TheMuppets" revision="lineage-20" />
 
+    <!-- Repos to replace -->
+    <remove-project name="LMODroid/platform_vendor_lmodroid" />
+
     <!-- Device repos -->
     <project path="device/xiaomi/miatoll" name="leddaz-stuff/android_device_xiaomi_miatoll" remote="github" revision="thirteen" />
     <project path="device/xiaomi/sm6250-common" name="leddaz-stuff/android_device_xiaomi_sm6250-common" remote="github" revision="thirteen" />
@@ -26,6 +29,7 @@
     <project path="vendor/extra" name="leddaz-stuff/android_vendor_extra" remote="github" revision="thirteen" />
     <project path="vendor/gapps" name="MindTheGapps/vendor_gapps" remote="gitlab" revision="tau" />
     <project path="vendor/gapps_tv" name="MindTheGapps/vendor_gapps_tv" remote="gitlab" revision="tau" />
+    <project path="vendor/lmodroid" name="leddaz-stuff/platform_vendor_lmodroid" remote="github" revision="thirteen" />
     <project path="vendor/xiaomi/miatoll" name="proprietary_vendor_xiaomi_miatoll" remote="muppets" />
     <project path="vendor/xiaomi/sm6250-common" name="proprietary_vendor_xiaomi_sm6250-common" remote="muppets" />
 
