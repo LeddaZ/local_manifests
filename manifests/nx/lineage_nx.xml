@@ -4,6 +4,7 @@
     <!-- LineageOS 18.1 manifest for nx -->
 
     <!-- External remotes -->
+    <remote name="gitlab" fetch="https://gitlab.com/" revision="rho" />
     <remote name="leddaz" fetch="https://github.com/LeddaZ" revision="lineage-18.1" />
 
     <!-- Replaced repos -->
@@ -49,6 +50,8 @@
 
     <!-- Vendor -->
     <project path="vendor/extra" name="LeddaZ/android_vendor_extra" />
+    <project path="vendor/gapps" name="MindTheGapps/vendor_gapps" remote="gitlab" />
+    <project path="vendor/gapps_tv" name="MindTheGapps/vendor_gapps_tv" remote="gitlab" revision="rho" />
     <project path="vendor/nintendo" name="TheMuppets/proprietary_vendor_nintendo" />
     <project path="vendor/nvidia" name="TheMuppets/proprietary_vendor_nvidia" />
 
