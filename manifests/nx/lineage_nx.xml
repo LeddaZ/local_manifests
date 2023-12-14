@@ -6,6 +6,9 @@
     <!-- External remotes -->
     <remote name="leddaz" fetch="https://github.com/LeddaZ" revision="lineage-18.1" />
 
+    <!-- Replaced repos -->
+    <remove-project name="LineageOS/android_frameworks_base" />
+
     <!-- Device -->
     <project path="device/nintendo/nx" name="android_device_nintendo_nx" remote="leddaz" />
     <project path="device/nvidia/sepolicy" name="LineageOS/android_device_nvidia_sepolicy" />
@@ -13,8 +16,11 @@
     <project path="device/nvidia/tegra-common" name="LineageOS/android_device_nvidia_tegra-common" />
 
     <!-- External -->
-    <project path="external/ih8sn" name="LeddaZ/ih8sn" revision="main" />
+    <project path="external/ih8sn" name="LeddaZ/ih8sn" revision="master" />
     <project path="external/libevdev" name="LineageOS/android_external_libevdev" />
+
+    <!-- Framework -->
+    <project path="frameworks/base" name="LeddaZ/android_frameworks_base" />
 
     <!-- Hardware -->
     <project path="hardware/intel/sensors-iio" name="LineageOS/android_hardware_intel_sensors-iio" />
