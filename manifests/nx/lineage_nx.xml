@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <!-- LineageOS 18.1 manifest for nx -->
+
+    <!-- External remotes -->
+    <remote name="leddaz" fetch="https://github.com/LeddaZ" revision="lineage-18.1" />
+
+    <!-- Device -->
+    <project path="device/nintendo/nx" name="android_device_nintendo_nx" remote="leddaz" />
+    <project path="device/nvidia/sepolicy" name="LineageOS/android_device_nvidia_sepolicy" />
+    <project path="device/nvidia/t210-common" name="LineageOS/android_device_nvidia_t210-common" />
+    <project path="device/nvidia/tegra-common" name="LineageOS/android_device_nvidia_tegra-common" />
+
+    <!-- External -->
+    <project path="external/ih8sn" name="LeddaZ/ih8sn" revision="main" />
+    <project path="external/libevdev" name="LineageOS/android_external_libevdev" />
+
+    <!-- Hardware -->
+    <project path="hardware/intel/sensors-iio" name="LineageOS/android_hardware_intel_sensors-iio" />
+    <project path="hardware/nintendo/arm-trusted-firmware" name="LineageOS/android_hardware_nintendo_arm-trusted-firmware" />
+    <project path="hardware/nintendo/joycond" name="LineageOS/android_hardware_nintendo_joycond" />
+    <project path="hardware/nintendo/u-boot" name="LineageOS/android_hardware_nintendo_u-boot" />
+    <project path="hardware/nvidia/interfaces" name="LineageOS/android_hardware_nvidia_interfaces" />
+    <project path="hardware/nvidia/light" name="LineageOS/android_hardware_nvidia_light" />
+    <project path="hardware/nvidia/platform/t210/common" name="LineageOS/android_hardware_nvidia_platform_t210_common" />
+    <project path="hardware/nvidia/platform/t210/nx" name="LineageOS/android_hardware_nvidia_platform_t210_nx" />
+    <project path="hardware/nvidia/platform/tegra/common" name="LineageOS/android_hardware_nvidia_platform_tegra_common" />
+    <project path="hardware/nvidia/power" name="LineageOS/android_hardware_nvidia_power" />
+    <project path="hardware/nvidia/soc/t210" name="LineageOS/android_hardware_nvidia_soc_t210" />
+    <project path="hardware/nvidia/soc/tegra" name="LineageOS/android_hardware_nvidia_soc_tegra" />
+    <project path="hardware/nvidia/thermal" name="LineageOS/android_hardware_nvidia_thermal" />
+
+    <!-- Kernel -->
+    <project path="kernel/nvidia/cypress-fmac-upstream" name="LineageOS/android_kernel_nvidia_cypress-fmac-upstream" />
+    <project path="kernel/nvidia/kernel-4.9-nx" name="LineageOS/android_kernel_nvidia_kernel-nx" />
+    <project path="kernel/nvidia/nvgpu" name="LineageOS/android_kernel_nvidia_nvgpu" />
+    <project path="kernel/nvidia/nvidia-nx" name="LineageOS/android_kernel_nvidia_nvidia-nx" />
+    <project path="kernel/nvidia/wireguard" name="LineageOS/android_kernel_nvidia_wireguard" />
+
+    <!-- Prebuilts -->
+    <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu-6.4.1" name="LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-gnu-6.4.1" />
+
+    <!-- Vendor -->
+    <project path="vendor/extra" name="LeddaZ/android_vendor_extra" />
+    <project path="vendor/nintendo" name="TheMuppets/proprietary_vendor_nintendo" />
+    <project path="vendor/nvidia" name="TheMuppets/proprietary_vendor_nvidia" />
+
+</manifest>
