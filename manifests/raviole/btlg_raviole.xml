@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <!-- Bootleggers A14 manifest for raviole -->
+
+    <!-- External remotes -->
+    <remote name="muppets" fetch="https://github.com/TheMuppets" revision="lineage-21" />
+
+    <!-- Device repos -->
+    <project path="device/google/gs-common" name="LineageOS/android_device_google_gs-common" remote="github" revision="lineage-21" />
+    <project path="device/google/gs101" name="leddaz-stuff/android_device_google_gs101" remote="github" revision="urubino" />
+    <project path="device/google/raviole" name="leddaz-stuff/android_device_google_raviole" remote="github" revision="urubino" />
+
+    <!-- Kernel repos -->
+    <project path="kernel/google/gs201/private/gs-google" name="LineageOS/android_kernel_google_gs201" remote="github" revision="lineage-21" />
+
+    <!-- Vendor repos -->
+    <project path="vendor/google/oriole" name="proprietary_vendor_google_oriole" remote="muppets" />
+    <project path="vendor/google/raven" name="proprietary_vendor_google_raven" remote="muppets" />
+
+</manifest>
