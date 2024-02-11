@@ -5,7 +5,7 @@
 
     <!-- External remotes -->
     <remote name="leddaz" fetch="https://github.com/LeddaZ" revision="lineage-20.0" />
-    <remote name="mtg" fetch="https://gitlab.com/MindTheGapps" remote="tau" />
+    <remote name="mtg" fetch="https://gitlab.com/MindTheGapps" revision="tau" />
     <remote name="muppets" fetch="https://github.com/TheMuppets" revision="lineage-20" />
 
     <!-- External -->
