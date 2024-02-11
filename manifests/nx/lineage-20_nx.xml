@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <!-- LineageOS 20 local_manifest for nx -->
+
+    <!-- External remotes -->
+    <remote name="leddaz" fetch="https://github.com/LeddaZ" revision="lineage-20.0" />
+    <remote name="mtg" fetch="https://gitlab.com/MindTheGapps" remote="tau" />
+    <remote name="muppets" fetch="https://github.com/TheMuppets" revision="lineage-20" />
+
+    <!-- External -->
+    <project path="external/ih8sn" name="LeddaZ/ih8sn" revision="master" />
+
+    <!-- Vendor -->
+    <project path="vendor/extra" name="android_vendor_extra" remote="leddaz" />
+    <project path="vendor/gapps" name="vendor_gapps" remote="mtg" />
+    <project path="vendor/gapps_tv" name="vendor_gapps_tv" remote="mtg" />
+    <project path="vendor/nintendo/nx" name="proprietary_vendor_nintendo_nx" remote="muppets" />
+    <project path="vendor/nvidia/common" name="proprietary_vendor_nvidia_common" remote="muppets" />
+    <project path="vendor/nvidia/foster" name="proprietary_vendor_nvidia_foster" remote="muppets" />
+    <project path="vendor/nvidia/galen" name="proprietary_vendor_nvidia_galen" remote="muppets" />
+    <project path="vendor/nvidia/quill" name="proprietary_vendor_nvidia_quill" remote="muppets" />
+    <project path="vendor/nvidia/shield" name="proprietary_vendor_nvidia_shield" remote="muppets" />
+    <project path="vendor/nvidia/t186" name="proprietary_vendor_nvidia_t186" remote="muppets" />
+    <project path="vendor/nvidia/t194" name="proprietary_vendor_nvidia_t194" remote="muppets" />
+    <project path="vendor/nvidia/t210" name="proprietary_vendor_nvidia_t210" remote="muppets" />
+    <project path="vendor/nvidia/t234" name="proprietary_vendor_nvidia_t234" remote="muppets" />
+
+</manifest>
